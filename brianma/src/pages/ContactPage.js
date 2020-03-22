@@ -43,13 +43,7 @@ function contactItem(label, data) {
         <h5>{label}:</h5>
       </Col>
       <Col sm={7}>
-        {Array.isArray(data) ? (
-          data.map((entry) => (
-              <div>{entry.value}</div>
-          ))
-        ) : (
-          <p>{data}</p>
-        )}
+        {Array.isArray(data) ? data.map((entry) => <div>{entry.value}</div>) : <p>{data}</p>}
       </Col>
     </Row>
   );

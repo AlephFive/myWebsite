@@ -24,8 +24,8 @@ function AboutPage() {
           </p>
           <p>
             I am Taiwanese-American and I was born in Fremont, California. However, I grew up in
-            Beijing, China. I play the drum kit and I occasionally upload videos to
-            my Youtube Channel{' '}
+            Beijing, China. I play the drum kit and I occasionally upload videos to my Youtube
+            Channel{' '}
             <a href="https://www.youtube.com/user/RandomePerson18/" target="_blank">
               here
             </a>

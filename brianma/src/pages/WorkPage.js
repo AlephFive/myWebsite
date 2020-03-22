@@ -1,12 +1,13 @@
 import React from 'react';
 import { Container, Tab, Row, Col, Nav } from 'react-bootstrap';
 import Resume from '../tabs/resumeTab';
+import PublicationTab from '../tabs/publicationTab';
 
 function WorkPage() {
   return (
     <Container>
       <br />
-      <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+      <Tab.Container id="left-tabs-example" defaultActiveKey="first" style={{ position: 'sticky' }}>
         <Row>
           <Col sm={3}>
             <Nav variant="pills" className="flex-column">
@@ -39,7 +40,7 @@ function WorkPage() {
                 <p>first</p>
               </Tab.Pane>
               <Tab.Pane eventKey="third">
-                <p>sedonc</p>
+                <PublicationTab />
               </Tab.Pane>
               <Tab.Pane eventKey="fourth">
                 <p>sedonc</p>
