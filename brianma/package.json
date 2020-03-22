@@ -24,7 +24,7 @@
     "eject": "react-scripts eject",
     "pretty": "prettier --print-width 100 --single-quote --trailing-comma es5 --write src/**/*.js"
   },
-  "homepage": "http://brianma.me",
+  "homepage": "http://alephfive.github.io",
   "eslintConfig": {
     "extends": "react-app"
   },
