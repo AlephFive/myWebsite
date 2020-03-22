@@ -6,40 +6,40 @@ import { contactInfo as c } from '../data/contactData';
 class ContactPage extends React.Component {
   componentDidMount() {
     ReactGA.pageview('contact');
-    
   }
-  render(){
-  return (
-    <Container>
-      <br />
-      <br />
-      <Row>
-        <Col sm={{ span: 8, offset: 2 }}>
-          <h3>Contact Information</h3>
-        </Col>
-      </Row>
-      <Row>
+  render() {
+    return (
+      <Container>
         <br />
-      </Row>
-      <Row>
-        <Col sm={{ span: 8, offset: 2 }}>
-          <Card>
-            <Card.Body>
-              {contactItem('Phone', c.phone)}
-              {contactItem('Email', c.email)}
-              {contactItem('Address', c.addr)}
-              <Row>
-                <Col sm={{ span: 8, offset: 2 }}>
-                  <br />
-                  <p>Please send me a postcard! {':)'}</p>
-                </Col>
-              </Row>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-    </Container>
-  );}
+        <br />
+        <Row>
+          <Col sm={{ span: 8, offset: 2 }}>
+            <h3>Contact Information</h3>
+          </Col>
+        </Row>
+        <Row>
+          <br />
+        </Row>
+        <Row>
+          <Col sm={{ span: 8, offset: 2 }}>
+            <Card>
+              <Card.Body>
+                {contactItem('Phone', c.phone)}
+                {contactItem('Email', c.email)}
+                {contactItem('Address', c.addr)}
+                <Row>
+                  <Col sm={{ span: 8, offset: 2 }}>
+                    <br />
+                    <p>Please send me a postcard! {':)'}</p>
+                  </Col>
+                </Row>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
 }
 
 function contactItem(label, data) {
