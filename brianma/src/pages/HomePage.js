@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Image, Card, Button } from 'react-bootstrap';
-import { FaInstagram } from 'react-icons/fa';
-import { GoOctoface } from 'react-icons/go';
+import { FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { GoMarkGithub } from 'react-icons/go';
 
 function HomePage() {
   return (
@@ -31,14 +31,19 @@ function HomePage() {
       <Row></Row>
       <Row>
         <Col sm={{ span: 8, offset: 4 }} style={{ textAlign: 'left' }}>
-          <Button variant="secondary">LinkedIn</Button>{' '}
-          <Button variant="secondary">
+          <Button variant="secondary" href="https://www.linkedin.com/in/mashaoen/" target="_blank">
             <span>
-              <GoOctoface />
+              <FaLinkedin />
+            </span>{' '}
+            LinkedIn
+          </Button>{' '}
+          <Button variant="secondary" href="https://github.com/AlephFive" target="_blank">
+            <span>
+              <GoMarkGithub />
             </span>{' '}
             GitHub
           </Button>{' '}
-          <Button variant="secondary">
+          <Button variant="secondary" href="https://www.instagram.com/nothatbrian/" target="_blank">
             <span>
               <FaInstagram />
             </span>{' '}
@@ -59,9 +64,10 @@ function HomePage() {
               </p>
               <h5>What are my interests?</h5>
               <p>
-                My interests include web-front end development, quantum computing, superconductors,
-                machine learning, human-computer interaction, music, linguistics, graphic design,
-                and humanitarian aid.
+                My interests include (and are not limited to) web front-end development, quantum
+                computing, superconductors, machine learning, human-computer interaction,
+                user-experience design, interactive art, music, linguistics, graphic design,
+                humanitarian aid, history, and data visualisation.
               </p>
               <h5>What am I up to now?</h5>
               <p>

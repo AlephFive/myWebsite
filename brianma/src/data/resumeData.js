@@ -1,7 +1,13 @@
-export const workExperiences = [
+export const experiences = [
   {
-    value: 'intlDeliveryMethod',
-    label: '国际快递方式',
-    inputType: 'multiSelect',
+    value: 'hulu',
+    date: '1111111',
+    dateDescription: 'Fall 2019',
+    label: 'Hulu Inc',
+    location: 'Beijing, China',
+    description: 'temp asdasdasdasd',
+    relavance: [],
+    tags: [],
   },
 ];
+
