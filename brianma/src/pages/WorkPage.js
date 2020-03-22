@@ -1,9 +1,15 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import { Container, Tab, Row, Col, Nav } from 'react-bootstrap';
 import Resume from '../tabs/resumeTab';
 import PublicationTab from '../tabs/publicationTab';
 
-function WorkPage() {
+class WorkPage extends React.Component {
+  componentDidMount() {
+    ReactGA.pageview('work');
+    
+  }
+  render(){
   return (
     <Container>
       <br />
@@ -56,7 +62,7 @@ function WorkPage() {
         </Row>
       </Tab.Container>
     </Container>
-  );
+  );}
 }
 
 export default WorkPage;

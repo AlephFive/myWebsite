@@ -1,8 +1,14 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 import { contactInfo as c } from '../data/contactData';
 
-function ContactPage() {
+class ContactPage extends React.Component {
+  componentDidMount() {
+    ReactGA.pageview('contact');
+    
+  }
+  render(){
   return (
     <Container>
       <br />
@@ -33,7 +39,7 @@ function ContactPage() {
         </Col>
       </Row>
     </Container>
-  );
+  );}
 }
 
 function contactItem(label, data) {

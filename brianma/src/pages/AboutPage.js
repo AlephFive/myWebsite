@@ -1,7 +1,25 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
-function AboutPage() {
+class AboutPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  componentDidMount() {
+    ReactGA.pageview('about');
+    
+  }
+
+  handleExternalLink(text) {
+    ReactGA.event({
+      category: 'External',
+      action: text
+    })
+  }
+
+  render(){
   return (
     <Container>
       <br />
@@ -26,7 +44,8 @@ function AboutPage() {
             I am Taiwanese-American and I was born in Fremont, California. However, I grew up in
             Beijing, China. I play the drum kit and I occasionally upload videos to my Youtube
             Channel{' '}
-            <a href="https://www.youtube.com/user/RandomePerson18/" target="_blank">
+            <a href="https://www.youtube.com/user/RandomePerson18/" target="_blank" 
+            onClick={() => this.handleExternalLink('Visited Youtube channel')}>
               here
             </a>
             . I also enjoy singing and have been involved in the Colgate University Chourus. My
@@ -36,26 +55,15 @@ function AboutPage() {
             I speak fluent English as well as Mandarin, and I have elementary proficiency in French
             and Hebrew. I've also studied Hungarian and Esperanto, but those went nowhere haha. You
             can stalk me on Duolingo{' '}
-            <a href="https://www.duolingo.com/u/3267626" target="_blank">
+            <a href="https://www.duolingo.com/u/3267626" target="_blank" onClick={() => this.handleExternalLink('Visited Duolingo')}>
               here
             </a>
             .
           </p>
         </Col>
       </Row>
-      <Row>
-        <Col>1 of 3</Col>
-        <Col xs={5}>2 of 3 (wider)</Col>
-        <Col>3 of 3</Col>
-      </Row>
-
-      <Row>
-        <Col>1 of 3</Col>
-        <Col xs={5}>2 of 3 (wider)</Col>
-        <Col>3 of 3</Col>
-      </Row>
     </Container>
-  );
+  );}
 }
 
 export default AboutPage;

@@ -1,9 +1,21 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import { Container, Row, Col, Image, Card, Button } from 'react-bootstrap';
 import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { GoMarkGithub } from 'react-icons/go';
 
-function HomePage() {
+class HomePage extends React.Component {
+  componentDidMount() {
+    ReactGA.pageview('home');
+    
+  }
+  handleExternalLink(text) {
+    ReactGA.event({
+      category: 'External',
+      action: text
+    })
+  }
+  render(){
   return (
     <Container>
       <br />
@@ -31,19 +43,19 @@ function HomePage() {
       <Row></Row>
       <Row>
         <Col sm={{ span: 8, offset: 4 }} style={{ textAlign: 'left' }}>
-          <Button variant="secondary" href="https://www.linkedin.com/in/mashaoen/" target="_blank">
+          <Button variant="secondary" href="https://www.linkedin.com/in/mashaoen/" target="_blank" onClick={() => this.handleExternalLink('Visited LinkedIn')}>
             <span>
               <FaLinkedin />
             </span>{' '}
             LinkedIn
           </Button>{' '}
-          <Button variant="secondary" href="https://github.com/AlephFive" target="_blank">
+          <Button variant="secondary" href="https://github.com/AlephFive" target="_blank" onClick={() => this.handleExternalLink('Visited Github')}>
             <span>
               <GoMarkGithub />
             </span>{' '}
             GitHub
           </Button>{' '}
-          <Button variant="secondary" href="https://www.instagram.com/nothatbrian/" target="_blank">
+          <Button variant="secondary" href="https://www.instagram.com/nothatbrian/" target="_blank" onClick={() => this.handleExternalLink('Visited Instagram')}>
             <span>
               <FaInstagram />
             </span>{' '}
@@ -80,7 +92,7 @@ function HomePage() {
         </Col>
       </Row>
     </Container>
-  );
+  );}
 }
 
 export default HomePage;

@@ -50,39 +50,6 @@ class PublicationTab extends React.Component {
             {publications.map((entry) => {
               return PublicationEntry(entry);
             })}
-            {publications.map((entry) => {
-              return PublicationEntry(entry);
-            })}
-            {publications.map((entry) => {
-              return PublicationEntry(entry);
-            })}
-            {publications.map((entry) => {
-              return PublicationEntry(entry);
-            })}
-            {publications.map((entry) => {
-              return PublicationEntry(entry);
-            })}
-            {publications.map((entry) => {
-              return PublicationEntry(entry);
-            })}
-            {publications.map((entry) => {
-              return PublicationEntry(entry);
-            })}
-            {publications.map((entry) => {
-              return PublicationEntry(entry);
-            })}
-            {publications.map((entry) => {
-              return PublicationEntry(entry);
-            })}
-            {publications.map((entry) => {
-              return PublicationEntry(entry);
-            })}
-            {publications.map((entry) => {
-              return PublicationEntry(entry);
-            })}
-            {publications.map((entry) => {
-              return PublicationEntry(entry);
-            })}
           </Container>
         </Row>
       </Container>
