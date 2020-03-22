@@ -1,5 +1,7 @@
 import React from 'react';
-import { Container, Row, Col, Image, Card } from 'react-bootstrap';
+import { Container, Row, Col, Image, Card, Button } from 'react-bootstrap';
+import { FaInstagram } from 'react-icons/fa';
+import { GoOctoface } from 'react-icons/go';
 
 function HomePage() {
   return (
@@ -26,27 +28,47 @@ function HomePage() {
           </p>
         </Col>
       </Row>
+      <Row></Row>
+      <Row>
+        <Col sm={{ span: 8, offset: 4 }} style={{ textAlign: 'left' }}>
+          <Button variant="secondary">LinkedIn</Button>{' '}
+          <Button variant="secondary">
+            <span>
+              <GoOctoface />
+            </span>{' '}
+            GitHub
+          </Button>{' '}
+          <Button variant="secondary">
+            <span>
+              <FaInstagram />
+            </span>{' '}
+            Instagram
+          </Button>{' '}
+        </Col>
+      </Row>
       <Row>
         <br />
-        
       </Row>
       <Row>
         <Col sm={{ span: 8, offset: 2 }} style={{ textAlign: 'left' }}>
           <Card>
             <Card.Body>
-                <p>
-                    You can download my resume in pdf form here, and you can find me on LinkedIn, GitHub, and Instagram.
-                </p>
-                <h5>What are my interests?</h5>
-                <p>
-                    My interests include web-front end development, quantum computing, superconductors, machine learning, human-computer interaction, music, linguistics, graphic design, and humanitarian aid.
-                </p>
-                <h5>What am I up to now?</h5>
-                <p>
-                    This summer I will be working under Professor Kenneth Segall at Colgate Universtiy doing research on 
-                    superconducting josephson junctions and its applications in simulating neural networks.
-                </p>
-                
+              <p>
+                You can download my resume in pdf form, and you can send me an email at
+                bma@colgate.edu
+              </p>
+              <h5>What are my interests?</h5>
+              <p>
+                My interests include web-front end development, quantum computing, superconductors,
+                machine learning, human-computer interaction, music, linguistics, graphic design,
+                and humanitarian aid.
+              </p>
+              <h5>What am I up to now?</h5>
+              <p>
+                This summer I will be working under Professor Kenneth Segall at Colgate Universtiy
+                conducting research on superconducting josephson junctions and its applications in
+                simulating neural networks.
+              </p>
             </Card.Body>
           </Card>
         </Col>

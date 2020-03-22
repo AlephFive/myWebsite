@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Tab, Row, Col, Nav } from 'react-bootstrap';
-import Resume from '../data/resume'
+import Resume from '../tabs/resumeTab';
 
 function WorkPage() {
   return (
     <Container>
-        <br/>
+      <br />
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
         <Row>
           <Col sm={3}>
