@@ -1,14 +1,14 @@
 export const coursework = [
-    {
-        type: '',
-        code: 'PHYS 448',
-        semester: 'Spring',
-        year: '2020',
-        title: 'Real-Time Non-Linear Dynamics and Chaos',
-        description: 'askjdsakjdhasdkjasdh',
-        institution: 'Colgate University',
-        tags: ['math', 'cs', 'physics'],
-      },
+  {
+    type: '',
+    code: 'PHYS 448',
+    semester: 'Spring',
+    year: '2020',
+    title: 'Real-Time Non-Linear Dynamics and Chaos',
+    description: 'askjdsakjdhasdkjasdh',
+    institution: 'Colgate University',
+    tags: ['math', 'cs', 'physics'],
+  },
   {
     type: '',
     code: 'COSC 290',

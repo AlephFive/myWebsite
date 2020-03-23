@@ -86,7 +86,8 @@ class HomePage extends React.Component {
               <Card.Body>
                 <p>
                   You can download my resume in pdf form, and you can send me an email at
-                  bma@colgate.edu {'      '} You can also check out my <a href='#/contact'>contact page</a> for more ways to reach out to me.
+                  bma@colgate.edu {'      '} You can also check out my{' '}
+                  <a href="#/contact">contact page</a> for more ways to reach out to me.
                 </p>
                 <h5>What are my interests?</h5>
                 <p>

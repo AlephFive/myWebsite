@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { coursework } from '../data/courseworkData';
 import { Container, Form, Row, Col, Card, Button, Collapse } from 'react-bootstrap';
 import { FaFantasyFlightGames } from 'react-icons/fa';
@@ -51,7 +51,7 @@ class CourseworkTab extends React.Component {
         <Row>
           <Container>
             {coursework.map((entry) => {
-              return <CourseworkEntry data={entry}/>;
+              return <CourseworkEntry data={entry} />;
             })}
           </Container>
         </Row>
@@ -60,47 +60,42 @@ class CourseworkTab extends React.Component {
   }
 }
 
-class CourseworkEntry extends React.Component{
-    constructor(props) {
-        super(props);
-        this.state = {
-          open: false,
-        };
-      }
+class CourseworkEntry extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      open: false,
+    };
+  }
 
-      setOpen(){
-        this.setState({open: !this.state.open});
-      }
-    
-    render(){
-  return (
+  setOpen() {
+    this.setState({ open: !this.state.open });
+  }
+
+  render() {
+    return (
       <div>
-    <Row>
-        
-      <Col sm={7}>
-        <a href="javascript:void(0);" onClick={() => this.setOpen()}>
-        <strong>{this.props.data.code}: {this.props.data.title}</strong>
-        
-        </a>
-      </Col>
-      <Col sm={2} style={{textAlign:'right'}}>
-      {this.props.data.semester} {this.props.data.year}
-      </Col>
-      <Col sm={3}>
-      {this.props.data.institution}
-      </Col>
-    </Row>
-    <div>
-      <Collapse in={this.state.open}>
-        <div id="example-collapse-text">
-          {this.props.data.description}
-          
+        <Row>
+          <Col sm={7}>
+            <a href="javascript:void(0);" onClick={() => this.setOpen()}>
+              <strong>
+                {this.props.data.code}: {this.props.data.title}
+              </strong>
+            </a>
+          </Col>
+          <Col sm={2} style={{ textAlign: 'right' }}>
+            {this.props.data.semester} {this.props.data.year}
+          </Col>
+          <Col sm={3}>{this.props.data.institution}</Col>
+        </Row>
+        <div>
+          <Collapse in={this.state.open}>
+            <div id="example-collapse-text">{this.props.data.description}</div>
+          </Collapse>
         </div>
-      </Collapse>
-        </div>
-    </div>
-  );
-    }
+      </div>
+    );
+  }
 }
 
 export default CourseworkTab;

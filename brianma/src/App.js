@@ -24,22 +24,21 @@ class App extends React.Component {
         <Header />
         <div style={{ height: '60px' }} />
         <Container style={{ minHeight: '88vh' }}>
-        <Router>
-          <Switch>
-            <Redirect from="/" exact to="/home" />
-            <Route path="/home" component={HomePage} />
-            <Route path="/about" component={AboutPage} />
-            <Route path="/work" component={WorkPage} />
-            <Route path="/contact" component={ContactPage} />
-          </Switch>
-        </Router>
+          <Router>
+            <Switch>
+              <Redirect from="/" exact to="/home" />
+              <Route path="/home" component={HomePage} />
+              <Route path="/about" component={AboutPage} />
+              <Route path="/work" component={WorkPage} />
+              <Route path="/contact" component={ContactPage} />
+            </Switch>
+          </Router>
         </Container>
         <footer>
-        <div style={{position: 'sticky', bottom: '0', left: '0', textAlign: 'center'}}>
-          <div>© 2020 Brian Ma</div>
-        </div>
+          <div style={{ position: 'sticky', bottom: '0', left: '0', textAlign: 'center' }}>
+            <div>© 2020 Brian Ma</div>
+          </div>
         </footer>
-        
       </div>
     );
   }
