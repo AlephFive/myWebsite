@@ -7,7 +7,7 @@ import WorkPage from './pages/WorkPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Header from './components/Header';
-import { Navbar, Row, Col } from 'react-bootstrap';
+import { Navbar, Row, Col, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -23,6 +23,7 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <div style={{ height: '60px' }} />
+        <Container style={{ minHeight: '88vh' }}>
         <Router>
           <Switch>
             <Redirect from="/" exact to="/home" />
@@ -32,9 +33,13 @@ class App extends React.Component {
             <Route path="/contact" component={ContactPage} />
           </Switch>
         </Router>
-        <Navbar bg="light" fixed="bottom" className="justify-content-center">
-          <Navbar.Text>© 2020 Brian Ma</Navbar.Text>
-        </Navbar>
+        </Container>
+        <footer>
+        <div style={{position: 'sticky', bottom: '0', left: '0', textAlign: 'center'}}>
+          <div>© 2020 Brian Ma</div>
+        </div>
+        </footer>
+        
       </div>
     );
   }

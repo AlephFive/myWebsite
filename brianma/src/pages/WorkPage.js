@@ -4,6 +4,7 @@ import { Container, Tab, Row, Col, Nav } from 'react-bootstrap';
 import Resume from '../tabs/resumeTab';
 import PublicationTab from '../tabs/publicationTab';
 import CourseworkTab from '../tabs/courseworkTab';
+import MusicTab from '../tabs/musicTab';
 
 class WorkPage extends React.Component {
   componentDidMount() {
@@ -11,7 +12,8 @@ class WorkPage extends React.Component {
   }
   render() {
     return (
-      <Container>
+      <div>
+      <Container style={{height: '100%'}}>
         <br />
         <Tab.Container
           id="left-tabs-example"
@@ -56,7 +58,7 @@ class WorkPage extends React.Component {
                   <p>sedonc</p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="fifth">
-                  <p>sedonc</p>
+                  <MusicTab />
                 </Tab.Pane>
                 <Tab.Pane eventKey="sixth">
                   <p>sedonc</p>
@@ -66,6 +68,7 @@ class WorkPage extends React.Component {
           </Row>
         </Tab.Container>
       </Container>
+      </div>
     );
   }
 }
