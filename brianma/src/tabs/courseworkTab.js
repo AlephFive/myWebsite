@@ -88,11 +88,24 @@ class CourseworkEntry extends React.Component {
           </Col>
           <Col sm={3}>{this.props.data.institution}</Col>
         </Row>
-        <div>
+        <Row>
+            <Col sm={10}>
+            <div>
           <Collapse in={this.state.open}>
-            <div id="example-collapse-text">{this.props.data.description}</div>
+            <div id="example-collapse-text">
+           {this.props.data.description}
+
+                
+            <br/>
+            
+            </div>
+            
           </Collapse>
         </div>
+            </Col>
+        
+        </Row>
+        
       </div>
     );
   }

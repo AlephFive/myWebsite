@@ -31,13 +31,17 @@ class AboutPage extends React.Component {
             <h2>My name is Brian Ma 马绍恩</h2>
 
             <p>
-              Aspiring software and hardware developer with significant experience with C++, C#, and
+              Aspiring software and hardware developer with experience in C++, C#, and
               Circuit Design for Human Computer Interaction, Hardware Prototyping and Design, with
-              published research in a top ACM conference (TEI). Significant industry experience in
+              published research in a top ACM conference (TEI). Industry experience in
               Web-Front End Development with JavaScript, collaborating with PMs and Back-End
               Developers to deliver robust results within tight deadlines. Familiar with industry
               standards and practices and has contributions to an open source project used by a
               well-known company. Can thrive in both industry and academic research environments.
+            </p>
+            <p>
+              In terms of interests, I hope to not define myself with any label or dicipline. I feel the most interesting 
+              things happen at the boundaries of diciplines, and I feel interdiciplinary work is great.....
             </p>
             <p>
               I am Taiwanese-American and I was born in Fremont, California. However, I grew up in
