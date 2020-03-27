@@ -42,11 +42,9 @@ class WorkPage extends React.Component {
                     <Nav.Link eventKey="sixth">Honors/Awards</Nav.Link>
                   </Nav.Item>
                 </Nav>
-                <br/>
+                <br />
                 <Card>
-                  <Card.Body>HIHIH
-                    
-                  </Card.Body>
+                  <Card.Body>HIHIH</Card.Body>
                 </Card>
               </Col>
               <Col sm={9}>
@@ -71,7 +69,6 @@ class WorkPage extends React.Component {
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
-              
             </Row>
           </Tab.Container>
         </Container>

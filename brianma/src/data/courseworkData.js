@@ -5,7 +5,8 @@ export const coursework = [
     semester: 'Spring',
     year: '2020',
     title: 'Real-Time Non-Linear Dynamics and Chaos',
-    description: 'An introduction to the techniques and concepts used to analyze real-time dynamic models that involve nonlinear terms. Applications are emphasized and demonstrate the universality of chaotic solution behavior. This course is team-taught by members of the physics and mathematics departments.',
+    description:
+      'An introduction to the techniques and concepts used to analyze real-time dynamic models that involve nonlinear terms. Applications are emphasized and demonstrate the universality of chaotic solution behavior. This course is team-taught by members of the physics and mathematics departments.',
     institution: 'Colgate University',
     tags: ['math', 'cs', 'physics', 'ee', 'apmath'],
   },
@@ -15,7 +16,8 @@ export const coursework = [
     semester: 'Spring',
     year: '2020',
     title: 'Discrete Structures',
-    description: 'Introduces discrete computational structures, methods, and concepts utilized throughout computer science. Topics may include types, relations, functions, equivalence and congruence relations, recursion, order relations, partially ordered sets, lattices, Boolean algebras, logic, semi-groups, monoids, morphisms, languages, graphs, trees, finite state machines, counting, and probability.',
+    description:
+      'Introduces discrete computational structures, methods, and concepts utilized throughout computer science. Topics may include types, relations, functions, equivalence and congruence relations, recursion, order relations, partially ordered sets, lattices, Boolean algebras, logic, semi-groups, monoids, morphisms, languages, graphs, trees, finite state machines, counting, and probability.',
     institution: 'Colgate University',
     tags: ['math', 'cs', 'apmath'],
   },
@@ -25,7 +27,8 @@ export const coursework = [
     semester: 'Spring',
     year: '2020',
     title: 'Abstract Algebra I',
-    description: 'Abstract algebraic structures, rather than results specific to the usual number systems, are developed. Basic algebraic structures presented include groups, rings, integral domains, and fields.',
+    description:
+      'Abstract algebraic structures, rather than results specific to the usual number systems, are developed. Basic algebraic structures presented include groups, rings, integral domains, and fields.',
     institution: 'Colgate University',
     tags: ['math'],
   },
@@ -35,7 +38,8 @@ export const coursework = [
     semester: 'Fall',
     year: '2019',
     title: 'Linear Algebra',
-    description: 'A study of sets of linear equations and their transformation properties over vector spaces. Topics include: systems of linear equations, matrices, determinants, vector spaces, linear transformations, eigenvalues, eigenvectors, and diagonalization.',
+    description:
+      'A study of sets of linear equations and their transformation properties over vector spaces. Topics include: systems of linear equations, matrices, determinants, vector spaces, linear transformations, eigenvalues, eigenvectors, and diagonalization.',
     institution: 'Colgate University',
     tags: ['cs', 'math', 'ee', 'physics', 'apmath'],
   },
@@ -45,7 +49,8 @@ export const coursework = [
     semester: 'Fall',
     year: '2019',
     title: 'Classical Mechanics',
-    description: 'A detailed study, using vector calculus, of important problems in the mechanics of particles and extended bodies including a derivation of Lagrange\'s and Hamilton\'s equations, and other advanced topics.',
+    description:
+      "A detailed study, using vector calculus, of important problems in the mechanics of particles and extended bodies including a derivation of Lagrange's and Hamilton's equations, and other advanced topics.",
     institution: 'Colgate University',
     tags: ['math', 'physics', 'apmath'],
   },
@@ -55,7 +60,8 @@ export const coursework = [
     semester: 'Fall',
     year: '2019',
     title: 'Thermodynamics and Statistical Mechanics',
-    description: 'An introduction to the physical concepts underlying the formalism of thermal physics. Emphasis is on the role and meaning of entropy in physical systems and processes. Topics include black body radiation, liquid helium, superconductivity, negative temperature, and the efficient use of energy.',
+    description:
+      'An introduction to the physical concepts underlying the formalism of thermal physics. Emphasis is on the role and meaning of entropy in physical systems and processes. Topics include black body radiation, liquid helium, superconductivity, negative temperature, and the efficient use of energy.',
     institution: 'Colgate University',
     tags: ['math', 'ee', 'physics', 'apmath'],
   },
@@ -65,7 +71,8 @@ export const coursework = [
     semester: 'Spring',
     year: '2019',
     title: 'Electronics',
-    description: 'A comprehensive treatment of basic electronics. The course covers analog and digital electronics. The analog section includes DC and AC circuits, filters, diodes, transistors, and operational amplifiers. The digital section includes combinational and sequential logic, integrated circuits, and interfacing.',
+    description:
+      'A comprehensive treatment of basic electronics. The course covers analog and digital electronics. The analog section includes DC and AC circuits, filters, diodes, transistors, and operational amplifiers. The digital section includes combinational and sequential logic, integrated circuits, and interfacing.',
     institution: 'Colgate University',
     tags: ['math', 'ee', 'physics', 'apmath', 'cs'],
   },
@@ -75,7 +82,8 @@ export const coursework = [
     semester: 'Spring',
     year: '2019',
     title: 'Intro Quantum Mechanics & Special Relativity',
-    description: 'Provides the mathematical and conceptual foundation to understand two important developments in modern physics: special relativity and quantum theory, concentrating on wave mechanics.',
+    description:
+      'Provides the mathematical and conceptual foundation to understand two important developments in modern physics: special relativity and quantum theory, concentrating on wave mechanics.',
     institution: 'Colgate University',
     tags: ['math', 'physics', 'apmath', 'ee'],
   },
@@ -85,7 +93,8 @@ export const coursework = [
     semester: 'Fall',
     year: '2018',
     title: 'Mathematical Methods in Physics',
-    description: 'A one-semester introduction to the mathematical methods of physics, with an emphasis on applications and how these methods are used to approach various problems. The course will cover topics such as ordinary differential equations, complex numbers and Euler\'s equation, linear systems, Fourier series, Fourier transforms, computational techniques, series expansions, cylindrical and spherical coordinate systems, vector differentiation, divergence and curl, integration methods and multi-dimensional integrals. These topics will be brought to bear on physical problems such as the damped and driven oscillator, coupled oscillators, electric dipoles, beat frequencies, electromagnetic waves and electrostatic boundary-value problems.',
+    description:
+      "A one-semester introduction to the mathematical methods of physics, with an emphasis on applications and how these methods are used to approach various problems. The course will cover topics such as ordinary differential equations, complex numbers and Euler's equation, linear systems, Fourier series, Fourier transforms, computational techniques, series expansions, cylindrical and spherical coordinate systems, vector differentiation, divergence and curl, integration methods and multi-dimensional integrals. These topics will be brought to bear on physical problems such as the damped and driven oscillator, coupled oscillators, electric dipoles, beat frequencies, electromagnetic waves and electrostatic boundary-value problems.",
     institution: 'Colgate University',
     tags: ['math', 'physics', 'ee', 'apmath'],
   },
@@ -95,7 +104,8 @@ export const coursework = [
     semester: 'Fall',
     year: '2018',
     title: 'Real Analysis I',
-    description: 'Results from calculus, including limits, continuity, the derivative, and the Riemann integral, are given a rigorous treatment.',
+    description:
+      'Results from calculus, including limits, continuity, the derivative, and the Riemann integral, are given a rigorous treatment.',
     institution: 'Colgate University',
     tags: ['math'],
   },
@@ -105,7 +115,8 @@ export const coursework = [
     semester: 'Fall',
     year: '2018',
     title: 'Computational Mathematics',
-    description: 'An exploration of computer manipulation and presentation of mathematical ideas. The computer allows mathematics to be explored, manipulated and connected to data. No background in programming is presumed. Students learn how numbers are stored and manipulated on the computer in order to do mathematics (from calculus to linear algebra to exploring patterns in the integers), how mathematical functions can be encoded and presented, and how data relates to functions. Induction and continuity are methods of proof relying on infinity, yet will be explored using the finite number cruncher called a computer. The results provide examples and intuition for further mathematical investigation. The required lab portion of the course allows students to implement these ideas in practice.',
+    description:
+      'An exploration of computer manipulation and presentation of mathematical ideas. The computer allows mathematics to be explored, manipulated and connected to data. No background in programming is presumed. Students learn how numbers are stored and manipulated on the computer in order to do mathematics (from calculus to linear algebra to exploring patterns in the integers), how mathematical functions can be encoded and presented, and how data relates to functions. Induction and continuity are methods of proof relying on infinity, yet will be explored using the finite number cruncher called a computer. The results provide examples and intuition for further mathematical investigation. The required lab portion of the course allows students to implement these ideas in practice.',
     institution: 'Colgate University',
     tags: ['math', 'apmath', 'cs', 'ee', 'physics'],
   },
@@ -115,7 +126,8 @@ export const coursework = [
     semester: 'Spring',
     year: '2018',
     title: 'Number Theory and Mathematical Reasoning',
-    description: 'Questions about the positive integers 1, 2, 3 . . . have fascinated people for thousands of years. The ancient Greeks noted the existence of right triangles with sides of integral length, corresponding to equations such as 32 + 42 = 52 and 52 + 122 = 132. Is there a way of describing all such “Pythagorean Triples”? As another example, 5 = 12 + 22, 13 = 22 + 32, 17 = 12 + 42, while none of the primes 7, 11, or 19 can be expressed as the sum of two squares. Is there a pattern? Does it continue forever? This course focuses on such equations as a means for introducing students to the spirit and methods of modern mathematics. The emphasis throughout is on developing the ability to construct logically sound mathematical arguments and communicate these arguments in writing.',
+    description:
+      'Questions about the positive integers 1, 2, 3 . . . have fascinated people for thousands of years. The ancient Greeks noted the existence of right triangles with sides of integral length, corresponding to equations such as 32 + 42 = 52 and 52 + 122 = 132. Is there a way of describing all such “Pythagorean Triples”? As another example, 5 = 12 + 22, 13 = 22 + 32, 17 = 12 + 42, while none of the primes 7, 11, or 19 can be expressed as the sum of two squares. Is there a pattern? Does it continue forever? This course focuses on such equations as a means for introducing students to the spirit and methods of modern mathematics. The emphasis throughout is on developing the ability to construct logically sound mathematical arguments and communicate these arguments in writing.',
     institution: 'Colgate University',
     tags: ['math', 'cs'],
   },
@@ -125,7 +137,8 @@ export const coursework = [
     semester: 'Fall',
     year: '2017',
     title: 'Intro to Computing II',
-    description: 'This course is a continuation of COSC 101 and is the first course in the major. It develops advanced programming topics such as abstract data types and algorithms and their analysis. Abstract data structures introduced include stacks, queues, lists, and binary trees; algorithms include search and sort procedures. The concepts of information hiding, data abstraction, and modular design are emphasized. Object-oriented programming is used throughout the course.',
+    description:
+      'This course is a continuation of COSC 101 and is the first course in the major. It develops advanced programming topics such as abstract data types and algorithms and their analysis. Abstract data structures introduced include stacks, queues, lists, and binary trees; algorithms include search and sort procedures. The concepts of information hiding, data abstraction, and modular design are emphasized. Object-oriented programming is used throughout the course.',
     institution: 'Colgate University',
     tags: ['math', 'cs', 'ee'],
   },
@@ -135,7 +148,8 @@ export const coursework = [
     semester: 'Summer',
     year: '2015',
     title: 'Mathematics and Politics',
-    description: 'We apply mathematical reasoning to some problems arising in the social sciences. We discuss game theory and its applications to political and historical conflicts. Power indices are introduced and used to analyze some political institutions. The problem of finding a fair election procedure to choose among three or more alternatives is analyzed.',
+    description:
+      'We apply mathematical reasoning to some problems arising in the social sciences. We discuss game theory and its applications to political and historical conflicts. Power indices are introduced and used to analyze some political institutions. The problem of finding a fair election procedure to choose among three or more alternatives is analyzed.',
     institution: 'Cornell University',
     tags: ['math', 'apmath'],
   },
