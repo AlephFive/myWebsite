@@ -36,9 +36,6 @@ class WorkPage extends React.Component {
                     <Nav.Link eventKey="fourth">Projects</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fifth">Music</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
                     <Nav.Link eventKey="sixth">Honors/Awards</Nav.Link>
                   </Nav.Item>
                 </Nav>
@@ -60,9 +57,6 @@ class WorkPage extends React.Component {
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
                     <p>sedonc</p>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="fifth">
-                    <MusicTab />
                   </Tab.Pane>
                   <Tab.Pane eventKey="sixth">
                     <p>sedonc</p>
