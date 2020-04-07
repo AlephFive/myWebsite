@@ -9,10 +9,10 @@ class ResumeTab extends React.Component {
     };
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <Container>
-        <Row style={{display:'none'}}>
+        <Row style={{ display: 'none' }}>
           <Col sm={10}>
             <Card>
               <Card.Body>
@@ -45,17 +45,10 @@ class ResumeTab extends React.Component {
           <br />
         </Row>
         <Row>
-          <Container>
-            
-
-
-
-            
-          </Container>
+          <Container></Container>
         </Row>
       </Container>
-      
-    )
+    );
   }
 }
 

@@ -16,7 +16,7 @@ class CourseworkTab extends React.Component {
   render() {
     return (
       <Container>
-        <Row style={{display:'none'}}>
+        <Row style={{ display: 'none' }}>
           <Col sm={10}>
             <Card>
               <Card.Body>

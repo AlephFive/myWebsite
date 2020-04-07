@@ -49,12 +49,11 @@ class HomePage extends React.Component {
               onClick={() => this.handleExternalLink('Visited LinkedIn')}
             >
               <span>
-              <div style={{display: 'flex', alignItems: 'center'}}>
-                <FaLinkedin />
-                <span style={{margin: '0 3px'}}>LinkedIn</span>
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                  <FaLinkedin />
+                  <span style={{ margin: '0 3px' }}>LinkedIn</span>
                 </div>
               </span>
-              
             </Button>{' '}
             <Button
               variant="secondary"
@@ -63,9 +62,9 @@ class HomePage extends React.Component {
               onClick={() => this.handleExternalLink('Visited Github')}
             >
               <span>
-                <div style={{display: 'flex', alignItems: 'center'}}>
-                <GoMarkGithub />
-                <span style={{margin: '0 3px'}}>GitHub</span>
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                  <GoMarkGithub />
+                  <span style={{ margin: '0 3px' }}>GitHub</span>
                 </div>
               </span>
             </Button>{' '}
@@ -75,14 +74,11 @@ class HomePage extends React.Component {
               target="_blank"
               onClick={() => this.handleExternalLink('Visited Instagram')}
             >
-              <span >
-                <div style={{display: 'flex', alignItems: 'center'}}>
-                  
-                <FaInstagram />
-                    <span style={{margin: '0 3px'}}>Instagram</span>
-                
+              <span>
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                  <FaInstagram />
+                  <span style={{ margin: '0 3px' }}>Instagram</span>
                 </div>
-                
               </span>
             </Button>{' '}
           </Col>
