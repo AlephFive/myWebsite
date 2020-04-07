@@ -31,18 +31,13 @@ class AboutPage extends React.Component {
             <h2>My name is Brian Ma 马绍恩</h2>
 
             <p>
-              Aspiring software and hardware developer with experience in C++, C#, and Circuit
-              Design for Human Computer Interaction, Hardware Prototyping and Design, with published
-              research in a top ACM conference (TEI). Industry experience in Web-Front End
-              Development with JavaScript, collaborating with PMs and Back-End Developers to deliver
-              robust results within tight deadlines. Familiar with industry standards and practices
-              and has contributions to an open source project used by a well-known company. Can
-              thrive in both industry and academic research environments.
+              I am aspiring software and hardware developer with experience in front-end web development and 
+              electrical engineering. I am currently studying at Colgate University majoring in Physics and minoring in 
+              Mathematics and Jewish Studies. I will be attending Columbia University in the fall of 2020 studying Computer Science. 
             </p>
             <p>
-              In terms of interests, I hope to not define myself with any label or dicipline. I feel
-              the most interesting things happen at the boundaries of diciplines, and I feel
-              interdiciplinary work is great.....
+              My primary interests include Human Computer Interaction and UX, in particular its applications in 
+              cross-cultural communication; the application of superconductors in artificial neurons; and computer art.
             </p>
             <p>
               I am Taiwanese-American and I was born in Fremont, California. However, I grew up in
@@ -54,12 +49,12 @@ class AboutPage extends React.Component {
               >
                 Youtube Channel
               </a>
-              . I also enjoy singing and have been involved in the Colgate University Chourus. My
+              . I also enjoy singing was a member of the Colgate University Chorus. My
               favourite book is <i>King Solomon's Ring</i> by Konrad Lorenz.
             </p>
             <p>
-              I speak fluent English as well as Mandarin, and I have elementary proficiency in
-              French and Hebrew. I have also studied Hungarian and Esperanto, but those went nowhere
+              I speak native-level English as well as Mandarin, and I have elementary proficiency in
+              French and Hebrew. I have also studied Hungarian and Esperanto in the past, but those went nowhere
               ha ha. You can stalk me on Duolingo{' '}
               <a
                 href="https://www.duolingo.com/u/3267626"
@@ -75,13 +70,13 @@ class AboutPage extends React.Component {
         </Row>
         <Row>
           <Col sm={{ span: 8, offset: 2 }}>
-            <div style={{ fontSize: '13px', color: '#a1a1a1' }}>
+            <div style={{ fontSize: '12px', color: '#a1a1a1' }}>
               <u>About this website:</u>
               <p>
-                Credit for the illustrated portrait goes to Rovoz Zhong. Check out her instagram{' '}
-                <a href="https://www.instagram.com/mooncake_95/">@mooncake_95</a>! Credit for the
+                Credit for the illustrated portrait on the home page goes to Rovoz Zhong{' '}
+                (<a href="https://www.instagram.com/mooncake_95/">@mooncake_95</a>). Credit for the
                 photo of me on this page goes to Yang Zhang. This website was built using React and
-                the create-react-app boilerplate, and blog was built using ButterCMS. I built this
+                the create-react-app boilerplate. I built this
                 website over a weekend during coronavirus social-distancing, mostly because I was
                 bored. Source code available{' '}
                 <a href="https://github.com/AlephFive/alephfive.github.io/tree/develop">here</a>.

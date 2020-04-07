@@ -40,7 +40,7 @@ class WorkPage extends React.Component {
                   </Nav.Item>
                 </Nav>
                 <br />
-                <Card>
+                <Card style={{display:'none'}}>
                   <Card.Body>HIHIH</Card.Body>
                 </Card>
               </Col>
