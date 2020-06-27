@@ -33,7 +33,7 @@ class App extends React.Component {
               <Route path="/about" component={AboutPage} />
               <Route path="/work" component={WorkPage} />
               <Route path="/blog" component={BlogMainPage} />
-              <Route path="/blog_entry" component={BlogEntryPage} />
+              <Route path="/blog-entry" component={BlogEntryPage} />
               <Route path="/contact" component={ContactPage} />
             </Switch>
           </Router>

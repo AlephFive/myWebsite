@@ -93,7 +93,8 @@ class CourseworkEntry extends React.Component {
             <div>
               <Collapse in={this.state.open}>
                 <div id="example-collapse-text">
-                  {this.props.data.description}
+                  <strong>Description: </strong>
+                  <span>{this.props.data.description}</span>
 
                   <br />
                 </div>

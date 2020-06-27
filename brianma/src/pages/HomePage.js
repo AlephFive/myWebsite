@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactGA from 'react-ga';
 import { Container, Row, Col, Image, Card, Button } from 'react-bootstrap';
-import { FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { GoMarkGithub } from 'react-icons/go';
 
 class HomePage extends React.Component {
@@ -78,6 +78,19 @@ class HomePage extends React.Component {
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                   <FaInstagram />
                   <span style={{ margin: '0 3px' }}>Instagram</span>
+                </div>
+              </span>
+            </Button>{' '}
+            <Button
+              variant="secondary"
+              href="https://www.twitter.com/alephfive"
+              target="_blank"
+              onClick={() => this.handleExternalLink('Visited Twitter')}
+            >
+              <span>
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                  <FaTwitter />
+                  <span style={{ margin: '0 3px' }}>Twitter</span>
                 </div>
               </span>
             </Button>{' '}
