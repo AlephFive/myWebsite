@@ -41,12 +41,13 @@ class WorkPage extends React.Component {
                 </Nav>
                 <br />
                 <Card style={{ display: 'none' }}>
-                  <Card.Body>HIHIH</Card.Body>
+                  <Card.Body>Under Construction</Card.Body>
                 </Card>
               </Col>
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
+                    <p>Under Construction</p>
                     <Resume />
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
@@ -56,10 +57,10 @@ class WorkPage extends React.Component {
                     <PublicationTab />
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
-                    <p>sedonc</p>
+                    <p>Under Construction</p>
                   </Tab.Pane>
                   <Tab.Pane eventKey="sixth">
-                    <p>sedonc</p>
+                    <p>Under Construction</p>
                   </Tab.Pane>
                 </Tab.Content>
               </Col>

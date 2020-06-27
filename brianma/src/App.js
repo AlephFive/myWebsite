@@ -5,6 +5,8 @@ import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import HomePage from './pages/HomePage';
 import WorkPage from './pages/WorkPage';
 import AboutPage from './pages/AboutPage';
+import BlogMainPage from './pages/BlogMainPage';
+import BlogEntryPage from './pages/BlogEntryPage';
 import ContactPage from './pages/ContactPage';
 import Header from './components/Header';
 import { Navbar, Row, Col, Container } from 'react-bootstrap';
@@ -30,6 +32,8 @@ class App extends React.Component {
               <Route path="/home" component={HomePage} />
               <Route path="/about" component={AboutPage} />
               <Route path="/work" component={WorkPage} />
+              <Route path="/blog" component={BlogMainPage} />
+              <Route path="/blog_entry" component={BlogEntryPage} />
               <Route path="/contact" component={ContactPage} />
             </Switch>
           </Router>
