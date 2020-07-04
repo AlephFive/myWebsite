@@ -113,11 +113,11 @@ class HomePage extends React.Component {
                   My interests include (and are not limited to) web front-end development, quantum
                   computing, superconductors, machine learning, human-computer interaction,
                   user-experience design, interactive art, music, linguistics, graphic design,
-                  humanitarian aid, history, and data visualisation.
+                  history, and data visualisation.
                 </p>
                 <h5>What am I up to now?</h5>
                 <p>
-                  This summer I will be working under Professor Kenneth Segall at Colgate Universtiy
+                  I am currently working under Professor Kenneth Segall at Colgate Universtiy
                   conducting research on superconducting josephson junctions and its applications in
                   simulating neural networks.
                 </p>
