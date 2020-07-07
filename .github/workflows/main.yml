@@ -32,7 +32,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+        working-directory: /home/runner/work
     - run: npm install
+      
     - run: npm run deploy --if-present
 
     - name: Upload a Build Artifact
