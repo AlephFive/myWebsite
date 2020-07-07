@@ -26,11 +26,12 @@ jobs:
     # Runs a single command using the runners shell
     - name: Comfirm
       run: echo 'Deploying'
-      
+    
+    - name: cd
+      run: cd brianma
+
     - name: Deploy
-      run: |
-        cd brianma
-        npm run deploy
+      run: npm run deploy
 
     # Runs a set of commands using the runners shell
     - name: Comfirm
