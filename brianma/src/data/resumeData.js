@@ -5,7 +5,7 @@ export const experiences = [
     dateDescription: 'Fall 2019',
     label: 'Hulu Inc',
     location: 'Beijing, China',
-    description: 'temp asdasdasdasddte',
+    description: 'temp asdasdasdasdd',
     relavance: [],
     tags: [],
   },
