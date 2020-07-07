@@ -14,7 +14,7 @@ class BlogEntryPage extends React.Component {
     const query = new URLSearchParams(this.props.location.search);
     const articleId = query.get('id');
     try {
-      const file = await import(`../data/blog/${articleId}.md`);
+      const file = await import(`../data/blog/${articleId}/${articleId}.md`);
       const response = await fetch(file.default);
       const text = await response.text();
       ReactGA.pageview('bp-${articleId}');
