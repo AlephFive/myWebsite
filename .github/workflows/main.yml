@@ -28,7 +28,11 @@ jobs:
     - uses: actions/checkout@v2
       with:
         persist-credentials: false
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+    - name: webfactory/ssh-agent
+      uses: webfactory/ssh-agent@v0.4.0
+      with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
