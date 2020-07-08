@@ -32,7 +32,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    
+    - run: git config --global user.email "spo2.spire.club@gmail.com"
+    - run: git config --global user.name "Deploy Script"
     - run: rm -rf node_modules/
     - run: npm cache clean --force
 
