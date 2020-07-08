@@ -38,7 +38,7 @@ jobs:
 
     - run: npm install
       
-    - run: npm run deploy --if-present
+    - run: CI=false npm run deploy --if-present
 
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2
