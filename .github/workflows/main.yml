@@ -28,11 +28,12 @@ jobs:
     - uses: actions/checkout@v2
       with:
         persist-credentials: false
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        
     - run: git config --global user.email "spo2.spire.club@gmail.com"
     - run: git config --global user.name "Deploy Script"
     - run: git config --global --add url."git@github.com:".insteadOf "https://github.com/"
