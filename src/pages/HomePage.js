@@ -28,7 +28,7 @@ class HomePage extends React.Component {
 
             <p>
               I'm <strong>Brian</strong>! I am currently a junior at{' '}
-              <strong>Columbia University</strong> and I am studying <strong>Computer Science </strong>
+              <strong>Columbia University</strong> and studying <strong>Computer Science </strong>.
             </p>
             <p>
               I attended <strong>Colgate University </strong>from 2017 to 2020.
