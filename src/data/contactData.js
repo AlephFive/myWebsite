@@ -1,10 +1,10 @@
 export const contactInfo = {
   phone: '+1 425-524-6671',
-  email: 'bma@colgate.edu',
+  email: 'bm3027@columbia.edu',
   addr: [
-    { label: 'Line 1', value: '13 Oak Drive' },
-    { label: 'Line 2', value: 'Box N4249' },
-    { label: 'City-State', value: 'Hamilton, NY' },
-    { label: 'Zip', value: '13346' },
+    { label: 'Line 1', value: '70 Morningside' },
+    { label: 'Line 2', value: 'F1554 Wien Hall' },
+    { label: 'City-State', value: 'New York, NY' },
+    { label: 'Zip', value: '10027-7236' },
   ],
 };
