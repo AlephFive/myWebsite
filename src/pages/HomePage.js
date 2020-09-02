@@ -28,14 +28,13 @@ class HomePage extends React.Component {
 
             <p>
               I'm <strong>Brian</strong>! I am currently a junior at{' '}
-              <strong>Colgate University</strong>. I major in <strong>Physics</strong> and minor in{' '}
-              <strong>Mathematics</strong> and
-              <strong> Jewish Studies</strong>.
+              <strong>Columbia University</strong> and I am studying <strong>Computer Science </strong>
             </p>
             <p>
-              I will be attending <strong>Columbia University</strong> starting from the fall of
-              2020 studying <strong>Computer Science </strong>
-              as part of a 3-2 engineering program.
+              I attended <strong>Colgate University </strong>from 2017 to 2020.
+              I majored in <strong>Physics</strong> and minored in{' '}
+              <strong>Mathematics</strong> and
+              <strong> Jewish Studies</strong>.
             </p>
           </Col>
         </Row>
