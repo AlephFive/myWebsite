@@ -31,15 +31,12 @@ class AboutPage extends React.Component {
             <h2>My name is Brian Ma 马绍恩</h2>
 
             <p>
-              I am aspiring software and hardware developer with experience in front-end web
-              development and electrical engineering. I am currently studying at Colgate University
-              majoring in Physics and minoring in Mathematics and Jewish Studies. I will be
-              attending Columbia University in the fall of 2020 studying Computer Science.
+              I am aspiring software and hardware developer with experience in front-end web development and electrical engineering. 
+              I currently studying at Columbia University and majoring in Computer Science. I attended Colgate University between 
+              2017 and 2020 and majored in Physics with minors in Mathematics and Jewish Studies.
             </p>
             <p>
-              My primary interests include Human Computer Interaction and UX, in particular its
-              applications in cross-cultural communication; the application of superconductors in
-              artificial neurons; and computer art.
+              My primary interests include Computer Graphics, Human Computer Interaction, User Experience Design, and computer art. 
             </p>
             <p>
               I am Taiwanese-American and I was born in Fremont, California. However, I grew up in
