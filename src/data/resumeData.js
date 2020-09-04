@@ -35,7 +35,7 @@ export const experiences = [
       "Participated in an agile team and supported efforts to upgrade and maintain the front-end systems of Hulu.com.",
       "Gained better understanding of industry concepts relating to web development and web architecture, as well as with Agile development methods such as Scrum.",
       "Migrated around a thousand test cases to a different testing framework and introduced snapshot testing to certain tests. Also wrote original test cases for a microservice written in Go and increased code coverage to 100% for multiple files.",
-      "Participated in Hulu Beijing Office Hackathon in a team of 3 and won “Coolest Hackathon Project” with RMB 2,000 prize out of 22 competing teams. Project was completed in 2 days and consisted of a “Katamari” ball able to pick up elements of any website and graphically display them as if they were picked up by a 3-dimensional ball. Wrote particle system and various physics effects based on knowledge from Physics courses."
+      "Participated in Hulu Beijing Office Hackathon in a team of 3 and won “Coolest Hackathon Project” with CNY 2,000 prize out of 22 competing teams. Project was completed in 2 days and consisted of a “Katamari” ball able to pick up elements of any website and graphically display them as if they were picked up by a 3-dimensional ball. Wrote particle system and various physics effects based on knowledge from Physics courses."
     ],
     relavance: [],
     tags: [],
