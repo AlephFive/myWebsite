@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactGA from 'react-ga';
 import { Container, Tab, Row, Col, Nav, Card } from 'react-bootstrap';
-import Resume from '../tabs/resumeTab';
+import ResumeTab from '../tabs/resumeTab';
 import PublicationTab from '../tabs/publicationTab';
 import CourseworkTab from '../tabs/courseworkTab';
 import MusicTab from '../tabs/musicTab';
@@ -36,6 +36,9 @@ class WorkPage extends React.Component {
                     <Nav.Link eventKey="fourth">Projects</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
+                    <Nav.Link eventKey="fifth">Licenses/Certifications</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
                     <Nav.Link eventKey="sixth">Honors/Awards</Nav.Link>
                   </Nav.Item>
                 </Nav>
@@ -47,8 +50,7 @@ class WorkPage extends React.Component {
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
-                    <p>Under Construction</p>
-                    <Resume />
+                    <ResumeTab />
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
                     <CourseworkTab />
