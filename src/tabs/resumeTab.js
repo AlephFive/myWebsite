@@ -71,10 +71,10 @@ function ExperienceEntry(props) {
         </div>
         <div>
           {props.description.map((line) => {
-              return(
+            return(
               <div style={{ fontSize: '0.78em' }}>• {line}</div>
-              );
-            })}
+            );
+          })}
         </div>
         <br />
       </Col>
