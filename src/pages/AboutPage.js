@@ -73,11 +73,11 @@ class AboutPage extends React.Component {
               <u>About this website:</u>
               <p>
                 Credit for the illustrated portrait on the home page goes to Rovoz Zhong (
-                <a href="https://www.instagram.com/mooncake_95/">@mooncake_95</a>). Credit for the
+                <a href="https://www.instagram.com/mooncake_95/" target="_blank">@mooncake_95</a>). Credit for the
                 photo of me on this page goes to Yang Zhang. This website was built using React and
                 the create-react-app boilerplate. I built this website over a weekend during
                 coronavirus social-distancing, mostly because I was bored. Source code available{' '}
-                <a href="https://github.com/AlephFive/alephfive.github.io/tree/develop">here</a>.
+                <a href="https://github.com/AlephFive/alephfive.github.io/tree/develop" target="_blank">here</a>.
               </p>
             </div>
           </Col>
