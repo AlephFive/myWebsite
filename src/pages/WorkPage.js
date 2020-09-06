@@ -27,7 +27,7 @@ class WorkPage extends React.Component {
                     <Nav.Link eventKey="first">Resume</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">Coursework</Nav.Link>
+                    <Nav.Link eventKey="second">Education/Coursework</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="third">Publications</Nav.Link>
@@ -59,6 +59,9 @@ class WorkPage extends React.Component {
                     <PublicationTab />
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
+                    <p>Under Construction</p>
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="fifth">
                     <p>Under Construction</p>
                   </Tab.Pane>
                   <Tab.Pane eventKey="sixth">

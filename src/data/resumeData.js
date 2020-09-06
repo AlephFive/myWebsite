@@ -55,6 +55,20 @@ export const experiences = [
     tags: [],
   },
   {
+    value: 'colgateAnthropology',
+    startDate: {day: 1, month: 6, year: 2019},
+    endDate: {day: 1, month: 9, year: 2019},
+    dateDescription: 'Fall 2017',
+    label: 'Colgate University, Department of Anthropology',
+    jobTitle: 'Assistant Archaeological Illustrator',
+    location: 'Hamilton, NY, USA',
+    description: [
+      "Used Adobe Illustrator to convert field drawings of archaeological dig sites in Mexico into detailed digital illustrations suitable for publication."
+    ],
+    relavance: [],
+    tags: [],
+  },
+  {
     value: 'xStudio',
     startDate: {day: 1, month: 6, year: 2019},
     endDate: {day: 1, month: 9, year: 2019},
@@ -86,3 +100,57 @@ export const experiences = [
     tags: [],
   },
 ];
+
+export const otherExperiences = [
+  {
+    value: 'photoclub',
+    startDate: {day: 1, month: 6, year: 2019},
+    endDate: {day: 1, month: 9, year: 2019},
+    dateDescription: 'Fall 2018 – Spring 2020',
+    label: 'Colgate University Photography Club',
+    jobTitle: 'President (Spring 2020), Treasurer (Fall 2018 – Fall 2019)',
+    location: 'Hamilton, NY, USA',
+    description: ["Temp"],
+    relavance: [],
+    tags: [],
+  },
+  {
+    value: 'raspberrypi',
+    startDate: {day: 1, month: 6, year: 2019},
+    endDate: {day: 1, month: 9, year: 2019},
+    dateDescription: 'Fall 2013 – Spring 2014',
+    label: 'High School Raspberry Pi Club',
+    jobTitle: 'President',
+    location: 'Beijing, China',
+    description: ["Founded club with a group of peers and organised lessons using Raspberry Pi computers to teach Python programming, circuits, and electronics."],
+    relavance: [],
+    tags: [],
+  },
+  {
+    value: 'stuco',
+    startDate: {day: 1, month: 6, year: 2019},
+    endDate: {day: 1, month: 9, year: 2019},
+    dateDescription: 'Fall 2013 – Spring 2014',
+    label: 'High School Student Council',
+    jobTitle: 'Director of Marketing Department and Lead Illustrator',
+    location: 'Beijing, China',
+    description: ["Founded club with a group of peers and organised lessons using Raspberry Pi computers to teach Python programming, circuits, and electronics."],
+    relavance: [],
+    tags: [],
+  },
+];
+
+export const skills = {
+  progLangs: {
+    proficient: 'C++, C#, Java, Javascript, MATLAB',
+    familiar: 'Python, R, Processing, Go, Mathematica'
+  },
+  technologies: {
+    proficient: 'Teensy, Arduino, Unity, Unreal Engine, OpenFrameworks, HTML/CSS, Git, React, Redux, Angular, AngularJS',
+    familiar: 'Kinect SDK, Hololens SDK, Optris Pi SDK, Zigbee, MFC, 3D Printing, Next.js, Mocha, Jest, LaTeX'
+  },
+  arts: {
+    proficient: 'MS Office, Adobe Illustrator, Photoshop, NewTek Tricaster, MuseScore 3',
+    familiar: 'Adobe After Effects, Premier Pro, Audacity'
+  },
+}

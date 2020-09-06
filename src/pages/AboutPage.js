@@ -32,11 +32,11 @@ class AboutPage extends React.Component {
 
             <p>
               I am aspiring software and hardware developer with experience in front-end web development and electrical engineering. 
-              I currently studying at Columbia University and majoring in Computer Science. I attended Colgate University between 
+              I am currently studying at Columbia University and majoring in Computer Science. I attended Colgate University between 
               2017 and 2020 and majored in Physics with minors in Mathematics and Jewish Studies.
             </p>
             <p>
-              My primary interests include Computer Graphics, Human Computer Interaction, User Experience Design, and computer art. 
+              My interests include (and are not limited to) Human-Computer Interaction, Graphics, UX Design, Software Engineering, Electrical Engineering, Physics, Machine Learning, Interactive Art, Graphic Design, Music, World History, Politics, and Language Learning.
             </p>
             <p>
               I am Taiwanese-American and I was born in Fremont, California. However, I grew up in

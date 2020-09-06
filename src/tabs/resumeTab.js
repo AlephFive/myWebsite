@@ -1,5 +1,5 @@
 import React from 'react';
-import { experiences } from '../data/resumeData';
+import { experiences, otherExperiences, skills } from '../data/resumeData';
 import { Container, Form, Row, Col, Card } from 'react-bootstrap';
 
 class ResumeTab extends React.Component {
@@ -47,14 +47,61 @@ class ResumeTab extends React.Component {
         </Row>
         <Row>
           <Container>
+            <div>Download shortened resume in <a href="/files/BrianShaoenMa_9-6-20.pdf" target="_blank" download>PDF</a> or <a href="javascript:void(0);" onClick={() => {}}>Word document</a> formats.</div>
+            <br/>
+            <h3><u>Work Experience</u></h3>
+            <br/>
             {experiences.map((entry) => {
               return ExperienceEntry(entry);
             })}
+            <br/>
+            <h3><u>Other Experience</u></h3>
+            <br/>
+            {otherExperiences.map((entry) => {
+              return ExperienceEntry(entry);
+            })}
+            <br/>
+            <h3><u>Skills</u></h3>
+            <br/>
+              {SkillsEntry(skills)}
+              <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
           </Container>
         </Row>
       </Container>
     );
   }
+}
+
+function SkillsEntry(skills){
+  return (
+    <Row>
+      <Col sm={10}>
+        <strong>Programming Languages</strong>
+        <div>
+          <div><u><i>Proficient:</i></u> {skills.progLangs.proficient}</div>
+          <div></div><u><i>Familiar:</i></u> {skills.progLangs.familiar}
+        </div>
+        <br/>
+        <strong>Technologies</strong>
+        <div>
+          <div><u><i>Proficient:</i></u> {skills.technologies.proficient}</div>
+          <div><u><i>Familiar:</i></u> {skills.technologies.familiar}</div>
+        </div>
+        <br/>
+        <strong>Other</strong>
+        <div>
+          <div><u><i>Proficient:</i></u> {skills.arts.proficient}</div>
+          <div><u><i>Familiar:</i></u> {skills.arts.familiar}</div>
+        </div>
+        <br/>
+      </Col>
+    </Row>
+  )
 }
 
 function ExperienceEntry(props) {
@@ -66,8 +113,11 @@ function ExperienceEntry(props) {
         </div>
         <div>
           <span>
-            <strong>{props.jobTitle} </strong> | {props.location} | {props.dateDescription}
+            <strong>{props.jobTitle} </strong>
           </span>
+        </div>
+        <div>
+          {props.location} | {props.dateDescription}
         </div>
         <div>
           {props.description.map((line) => {
