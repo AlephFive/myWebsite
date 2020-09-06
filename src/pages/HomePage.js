@@ -24,11 +24,11 @@ class HomePage extends React.Component {
             <Image src="me_drawn.png" roundedCircle fluid />
           </Col>
           <Col sm={6} style={{ textAlign: 'left' }}>
-            <h2>Hello There!</h2>
+            <h2 style={{ display: 'inline' }}>Hello There!</h2><h2 style={{ color: '#FFFFFF', display: 'inline'}}> General Kenobi!</h2>
 
             <p>
               I'm <strong>Brian</strong>! I am currently a junior at{' '}
-              <strong>Columbia University</strong> and major in <strong>Computer Science </strong>.
+              <strong>Columbia University</strong> majoring in <strong>Computer Science </strong>.
             </p>
             <p>
               I attended <strong>Colgate University </strong>from 2017 to 2020.
@@ -113,7 +113,7 @@ class HomePage extends React.Component {
                 </p>
                 <h5>What am I up to now?</h5>
                 <p>
-                  I am currently looking for an engineering summer internship!
+                  I am currently looking for a summer internship!
                 </p>
               </Card.Body>
             </Card>
