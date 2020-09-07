@@ -51,24 +51,27 @@ class CourseworkTab extends React.Component {
         </Row>
         <Row>
           <Container>
-            <h3><u>Education</u></h3>
-            <br/>
+            <h3>
+              <u>Education</u>
+            </h3>
+            <br />
             {education.map((entry) => {
               return EducationEntry(entry);
             })}
-            <br/>
-            <h3><u>Relevant Coursework</u></h3>
-            <br/>
+            <br />
+            <h3>
+              <u>Relevant Coursework</u>
+            </h3>
+            <br />
             {coursework.map((entry) => {
               return <CourseworkEntry data={entry} />;
             })}
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </Container>
         </Row>
       </Container>
@@ -76,8 +79,8 @@ class CourseworkTab extends React.Component {
   }
 }
 
-function EducationEntry(props){
-  return(
+function EducationEntry(props) {
+  return (
     <Row>
       <Col sm={10}>
         <div>
@@ -88,10 +91,10 @@ function EducationEntry(props){
         </div>
         <div style={{ fontSize: '0.78em' }}>
           {props.info.map((line) => {
-            return <div>{line}</div>
+            return <div>{line}</div>;
           })}
         </div>
-        <br/>
+        <br />
       </Col>
     </Row>
   );
@@ -116,9 +119,9 @@ class CourseworkEntry extends React.Component {
           <Col sm={10}>
             <Collapse in={this.state.open}>
               <div>
-                  <br/>
-                  </div>
-              </Collapse>
+                <br />
+              </div>
+            </Collapse>
           </Col>
         </Row>
         <Row>
@@ -141,7 +144,7 @@ class CourseworkEntry extends React.Component {
                 <div id="example-collapse-text">
                   <strong>Description: </strong>
                   <span>{this.props.data.description}</span>
-                  <br/>
+                  <br />
                   <br />
                 </div>
               </Collapse>

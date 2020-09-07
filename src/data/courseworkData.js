@@ -12,6 +12,17 @@ export const coursework = [
   },
   {
     type: '',
+    code: 'COMS 4170',
+    semester: 'Fall',
+    year: '2020',
+    title: 'User Interface Design',
+    description:
+      'Introduction to the theory and practice of computer user interface design, emphasizing the software design of graphical user interfaces. Topics include basic interaction devices and techniques, human factors, interaction styles, dialogue design, and software infrastructure. Design and programming projects are required.',
+    institution: 'Columbia University',
+    tags: ['cs'],
+  },
+  {
+    type: '',
     code: 'COMS 4701',
     semester: 'Fall',
     year: '2020',

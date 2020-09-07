@@ -24,16 +24,16 @@ class HomePage extends React.Component {
             <Image src="me_drawn.png" roundedCircle fluid />
           </Col>
           <Col sm={6} style={{ textAlign: 'left' }}>
-            <h2 style={{ display: 'inline' }}>Hello There!</h2><h2 style={{ color: '#FFFFFF', display: 'inline'}}> General Kenobi!</h2>
+            <h2 style={{ display: 'inline' }}>Hello There!</h2>
+            <h2 style={{ color: '#FFFFFF', display: 'inline' }}> General Kenobi!</h2>
 
             <p>
               I'm <strong>Brian</strong>! I am currently a junior at{' '}
               <strong>Columbia University</strong> majoring in <strong>Computer Science </strong>.
             </p>
             <p>
-              I attended <strong>Colgate University </strong>from 2017 to 2020.
-              I majored in <strong>Physics</strong> and minored in{' '}
-              <strong>Mathematics</strong> and
+              I attended <strong>Colgate University </strong>from 2017 to 2020. I majored in{' '}
+              <strong>Physics</strong> and minored in <strong>Mathematics</strong> and
               <strong> Jewish Studies</strong>.
             </p>
           </Col>
@@ -103,18 +103,26 @@ class HomePage extends React.Component {
             <Card>
               <Card.Body>
                 <p>
-                  You can download my shortened resume in <a href="/files/BrianShaoenMa_9-6-20.pdf" target="_blank" download>PDF</a> or <a href="/files/BrianShaoenMa_9-6-20.docx" target="_blank" download>Word document</a> formats, and you can send me an email at
-                  bm3027@columbia.edu {'      '} You can also check out my{' '}
-                  <a href="#/contact">contact page</a> for more ways to reach out to me.
+                  You can download my shortened resume in{' '}
+                  <a href="/files/BrianShaoenMa_9-6-20.pdf" target="_blank" download>
+                    PDF
+                  </a>{' '}
+                  or{' '}
+                  <a href="/files/BrianShaoenMa_9-6-20.docx" target="_blank" download>
+                    Word document
+                  </a>{' '}
+                  formats, and you can send me an email at bm3027@columbia.edu {'      '} You can
+                  also check out my <a href="#/contact">contact page</a> for more ways to reach out
+                  to me.
                 </p>
                 <h5>What are my interests?</h5>
                 <p>
-                  My primary interests are Human-Computer Interaction, Graphics, UX Design, Software Engineering, Electrical Engineering, Physics, Machine Learning, and Language Learning.
+                  My primary interests are Human-Computer Interaction, Graphics, UX Design, Software
+                  Engineering, Electrical Engineering, Physics, Machine Learning, and Language
+                  Learning.
                 </p>
                 <h5>What am I up to now?</h5>
-                <p>
-                  I am currently looking for a summer internship!
-                </p>
+                <p>I am currently looking for a summer internship!</p>
               </Card.Body>
             </Card>
           </Col>

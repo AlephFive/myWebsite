@@ -47,29 +47,45 @@ class ResumeTab extends React.Component {
         </Row>
         <Row>
           <Container>
-            <div>You can download a shortened resume in <a href="/files/BrianShaoenMa_9-6-20.pdf" target="_blank" download>PDF</a> or <a href="javascript:void(0);" onClick={() => {}}>Word document</a> formats.</div>
-            <br/>
-            <h3><u>Work Experience</u></h3>
-            <br/>
+            <div>
+              You can download a shortened resume in{' '}
+              <a href="/files/BrianShaoenMa_9-6-20.pdf" target="_blank" download>
+                PDF
+              </a>{' '}
+              or{' '}
+              <a href="javascript:void(0);" onClick={() => {}}>
+                Word document
+              </a>{' '}
+              formats.
+            </div>
+            <br />
+            <h3>
+              <u>Work Experience</u>
+            </h3>
+            <br />
             {experiences.map((entry) => {
               return ExperienceEntry(entry);
             })}
-            <br/>
-            <h3><u>Other Experience</u></h3>
-            <br/>
+            <br />
+            <h3>
+              <u>Other Experience</u>
+            </h3>
+            <br />
             {otherExperiences.map((entry) => {
               return ExperienceEntry(entry);
             })}
-            <br/>
-            <h3><u>Skills</u></h3>
-            <br/>
-              {SkillsEntry(skills)}
-              <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <h3>
+              <u>Skills</u>
+            </h3>
+            <br />
+            {SkillsEntry(skills)}
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </Container>
         </Row>
       </Container>
@@ -77,31 +93,60 @@ class ResumeTab extends React.Component {
   }
 }
 
-function SkillsEntry(skills){
+function SkillsEntry(skills) {
   return (
     <Row>
       <Col sm={10}>
         <strong>Programming Languages</strong>
         <div>
-          <div><u><i>Proficient:</i></u> {skills.progLangs.proficient}</div>
-          <div></div><u><i>Familiar:</i></u> {skills.progLangs.familiar}
+          <div>
+            <u>
+              <i>Proficient:</i>
+            </u>{' '}
+            {skills.progLangs.proficient}
+          </div>
+          <div></div>
+          <u>
+            <i>Familiar:</i>
+          </u>{' '}
+          {skills.progLangs.familiar}
         </div>
-        <br/>
+        <br />
         <strong>Technologies</strong>
         <div>
-          <div><u><i>Proficient:</i></u> {skills.technologies.proficient}</div>
-          <div><u><i>Familiar:</i></u> {skills.technologies.familiar}</div>
+          <div>
+            <u>
+              <i>Proficient:</i>
+            </u>{' '}
+            {skills.technologies.proficient}
+          </div>
+          <div>
+            <u>
+              <i>Familiar:</i>
+            </u>{' '}
+            {skills.technologies.familiar}
+          </div>
         </div>
-        <br/>
+        <br />
         <strong>Other</strong>
         <div>
-          <div><u><i>Proficient:</i></u> {skills.arts.proficient}</div>
-          <div><u><i>Familiar:</i></u> {skills.arts.familiar}</div>
+          <div>
+            <u>
+              <i>Proficient:</i>
+            </u>{' '}
+            {skills.arts.proficient}
+          </div>
+          <div>
+            <u>
+              <i>Familiar:</i>
+            </u>{' '}
+            {skills.arts.familiar}
+          </div>
         </div>
-        <br/>
+        <br />
       </Col>
     </Row>
-  )
+  );
 }
 
 function ExperienceEntry(props) {
@@ -121,9 +166,7 @@ function ExperienceEntry(props) {
         </div>
         <div>
           {props.description.map((line) => {
-            return(
-              <div style={{ fontSize: '0.78em' }}>• {line}</div>
-            );
+            return <div style={{ fontSize: '0.78em' }}>• {line}</div>;
           })}
         </div>
         <br />
@@ -132,8 +175,8 @@ function ExperienceEntry(props) {
   );
 }
 
-function convertToDateString(info){
-  return(
+function convertToDateString(info) {
+  return (
     <span>
       {info.day}/{info.month}/{info.year}
     </span>

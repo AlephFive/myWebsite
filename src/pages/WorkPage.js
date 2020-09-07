@@ -33,13 +33,19 @@ class WorkPage extends React.Component {
                     <Nav.Link eventKey="third">Publications</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fourth" style={{ display: 'none'}}>Projects</Nav.Link>
+                    <Nav.Link eventKey="fourth" style={{ display: 'none' }}>
+                      Projects
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fifth" style={{ display: 'none'}}>Licenses/Certifications</Nav.Link>
+                    <Nav.Link eventKey="fifth" style={{ display: 'none' }}>
+                      Licenses/Certifications
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="sixth" style={{ display: 'none'}}>Honors/Awards</Nav.Link>
+                    <Nav.Link eventKey="sixth" style={{ display: 'none' }}>
+                      Honors/Awards
+                    </Nav.Link>
                   </Nav.Item>
                 </Nav>
                 <br />
