@@ -45,6 +45,17 @@ export const coursework = [
   },
   {
     type: '',
+    code: 'STAT 4001',
+    semester: 'Fall',
+    year: '2020',
+    title: 'Intro to Probability and Statistics',
+    description:
+      'A calculus-based tour of the fundamentals of probability theory and statistical inference. Probability models, random variables, useful distributions, conditioning, expectations, law of large numbers, central limit theorem, point and confidence interval estimation, hypothesis tests, linear regression.',
+    institution: 'Columbia University',
+    tags: ['math', 'apmath'],
+  },
+  {
+    type: '',
     code: 'PHYS 448',
     semester: 'Spring',
     year: '2020',
