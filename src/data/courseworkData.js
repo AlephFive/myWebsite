@@ -1,6 +1,17 @@
 export const coursework = [
   {
     type: '',
+    code: 'COMS 4705',
+    semester: 'Fall',
+    year: '2020',
+    title: 'Natural Language Processing',
+    description:
+      'Computational approaches to natural language generation and understanding. Topics include information extraction, summarization, machine translation, dialogue systems, and emotional speech. Particular attention is given to robust techniques that can handle understanding and generation for the large amounts of text on the Web or in other large corpora. Programming exercises in several of these areas.',
+    institution: 'Columbia University',
+    tags: ['math', 'cs', 'apmath'],
+  },
+  {
+    type: '',
     code: 'COMS 4167',
     semester: 'Fall',
     year: '2020',
