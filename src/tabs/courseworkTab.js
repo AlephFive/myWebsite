@@ -51,6 +51,18 @@ class CourseworkTab extends React.Component {
         </Row>
         <Row>
           <Container>
+            <div>
+              You can download a shortened resume in{' '}
+              <a href="/files/BrianShaoenMa_9-6-20.pdf" target="_blank" download>
+                PDF
+              </a>{' '}
+              or{' '}
+              <a href="javascript:void(0);" onClick={() => {}}>
+                Word document
+              </a>{' '}
+              formats.
+            </div>
+            <br />
             <h3>
               <u>Education</u>
             </h3>

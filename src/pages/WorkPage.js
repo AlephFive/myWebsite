@@ -24,10 +24,10 @@ class WorkPage extends React.Component {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">Resume</Nav.Link>
+                    <Nav.Link eventKey="first">Education/Coursework</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">Education/Coursework</Nav.Link>
+                    <Nav.Link eventKey="second">Experiences</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="third">Publications</Nav.Link>
@@ -56,10 +56,10 @@ class WorkPage extends React.Component {
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
-                    <ResumeTab />
+                    <CourseworkTab />
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
-                    <CourseworkTab />
+                    <ResumeTab />
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
                     <PublicationTab />
