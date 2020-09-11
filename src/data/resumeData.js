@@ -59,7 +59,7 @@ export const experiences = [
     location: 'Hamilton, NY, USA',
     description: [
       'Participated in the development of a videoconferencing web service under the direction of Prof. Madeline Smith. Project allows for synced video-watching using HTML, CSS, JavaScript, WebRTC, Socket.io, and Apache web server.',
-      'Provided technical assistance to other members of the team. '
+      'Provided technical assistance to other members of the team. ',
     ],
     relavance: [],
     tags: [],
@@ -120,10 +120,12 @@ export const otherExperiences = [
     label: 'Colgate University Photography Club',
     jobTitle: 'Co-President (Spring 2020), Treasurer (Fall 2018 – Fall 2019)',
     location: 'Hamilton, NY, USA',
-    description: ['Managed finances and collaborated with team members to successfully receive funding of around 19,000 USD to procure photography equipment.',
-  'Assisted in organizing system for managing equipment lending, including the drafting of liability clauses and system for inventorying.',
-'Ran photography workshops on topics such as composition and photography software.',
-'Helped recruit new members, review leadership team applications, and organize projects such as Humans of Colgate and photography exhibitions.'],
+    description: [
+      'Managed finances and collaborated with team members to successfully receive funding of around 19,000 USD to procure photography equipment.',
+      'Assisted in organizing system for managing equipment lending, including the drafting of liability clauses and system for inventorying.',
+      'Ran photography workshops on topics such as composition and photography software.',
+      'Helped recruit new members, review leadership team applications, and organize projects such as Humans of Colgate and photography exhibitions.',
+    ],
     relavance: [],
     tags: [],
   },
@@ -135,8 +137,10 @@ export const otherExperiences = [
     label: 'Colgate University Marketing Club',
     jobTitle: 'Director of Graphic Design',
     location: 'Hamilton, NY, USA',
-    description: ['Designed marketing material for other clubs for purposes of recruitment.',
-  'Planned workshops on Graphic Design and Adobe Illustrator.'],
+    description: [
+      'Designed marketing material for other clubs for purposes of recruitment.',
+      'Planned workshops on Graphic Design and Adobe Illustrator.',
+    ],
     relavance: [],
     tags: [],
   },
@@ -164,7 +168,7 @@ export const otherExperiences = [
     location: 'Beijing, China',
     description: [
       'Led marketing department in which students made marketing material for student council sponsored events.',
-      'Designed numerous posters for events and clubs using Adobe Photoshop and Illustrator.'
+      'Designed numerous posters for events and clubs using Adobe Photoshop and Illustrator.',
     ],
     relavance: [],
     tags: [],
