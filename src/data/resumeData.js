@@ -108,7 +108,7 @@ export const otherExperiences = [
     endDate: { day: 1, month: 9, year: 2019 },
     dateDescription: 'Fall 2018 – Spring 2020',
     label: 'Colgate University Photography Club',
-    jobTitle: 'President (Spring 2020), Treasurer (Fall 2018 – Fall 2019)',
+    jobTitle: 'Co-President (Spring 2020), Treasurer (Fall 2018 – Fall 2019)',
     location: 'Hamilton, NY, USA',
     description: ['Temp'],
     relavance: [],

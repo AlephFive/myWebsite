@@ -1,4 +1,15 @@
 export const coursework = [
+  /*{
+    type: '',
+    code: 'STAT 4001',
+    semester: 'Fall',
+    year: '2020',
+    title: 'Intro to Probability and Statistics',
+    description:
+      'A calculus-based tour of the fundamentals of probability theory and statistical inference. Probability models, random variables, useful distributions, conditioning, expectations, law of large numbers, central limit theorem, point and confidence interval estimation, hypothesis tests, linear regression.',
+    institution: 'Columbia University',
+    tags: ['math', 'apmath'],
+  },*/
   {
     type: '',
     code: 'COMS 4705',
@@ -53,17 +64,6 @@ export const coursework = [
       'Practical, hands-on introduction to programming techniques and tools for professional software construction, including learning how to write code to given specifications as well as document the results. Provides introductory overview of C and C++ in a UNIX environment, for students with Java background. Also introduces scripting languages (perl) and basic web programming. UNIX programming utilities are also covered. Lab required.',
     institution: 'Columbia University',
     tags: ['cs'],
-  },
-  {
-    type: '',
-    code: 'STAT 4001',
-    semester: 'Fall',
-    year: '2020',
-    title: 'Intro to Probability and Statistics',
-    description:
-      'A calculus-based tour of the fundamentals of probability theory and statistical inference. Probability models, random variables, useful distributions, conditioning, expectations, law of large numbers, central limit theorem, point and confidence interval estimation, hypothesis tests, linear regression.',
-    institution: 'Columbia University',
-    tags: ['math', 'apmath'],
   },
   {
     type: '',
