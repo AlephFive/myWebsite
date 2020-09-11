@@ -104,11 +104,11 @@ class HomePage extends React.Component {
               <Card.Body>
                 <p>
                   You can download my shortened resume in{' '}
-                  <a href="/files/BrianShaoenMa_9-6-20.pdf" target="_blank" download>
+                  <a href="/files/BrianShaoenMa_Resume.pdf" target="_blank" download>
                     PDF
                   </a>{' '}
                   or{' '}
-                  <a href="/files/BrianShaoenMa_9-6-20.docx" target="_blank" download>
+                  <a href="/files/BrianShaoenMa_Resume.docx" target="_blank" download>
                     Word document
                   </a>{' '}
                   formats, and you can send me an email at bm3027@columbia.edu {'      '} You can

@@ -8,7 +8,10 @@ export const education = [
     location: 'New York, NY, USA',
     degree: 'B.S.',
     gpa: 'N/A',
-    info: ['Major: Computer Science', 'Attending for 2 years as part of the Columbia 3-2 Combined Plan Program'],
+    info: [
+      'Major: Computer Science',
+      'Attending for 2 years as part of the Columbia 3-2 Combined Plan Program',
+    ],
   },
   {
     value: 'colgateUG',
@@ -19,7 +22,12 @@ export const education = [
     location: 'Hamilton, NY, USA',
     degree: 'B.A.',
     gpa: '3.51',
-    info: ['Major: Physics', 'Minors: Mathematics, Jewish Studies', 'Attended for 3 years as part of the Columbia 3-2 Combined Plan Program', 'Extended Studies to Uzbekistan and Azerbaijan (SOSC 210: Oil and Water), and Lithuania (POSC/JWST 329: Politics of Nationalism and Memory)' ],
+    info: [
+      'Major: Physics',
+      'Minors: Mathematics, Jewish Studies',
+      'Attended for 3 years as part of the Columbia 3-2 Combined Plan Program',
+      'Extended Studies to Uzbekistan and Azerbaijan (SOSC 210: Oil and Water), and Lithuania (POSC/JWST 329: Politics of Nationalism and Memory)',
+    ],
   },
   {
     value: 'dcb',

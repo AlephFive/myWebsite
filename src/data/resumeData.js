@@ -7,7 +7,11 @@ export const experiences = [
     label: 'Colgate University, Department of Physics',
     jobTitle: 'Research Assistant',
     location: 'Hamilton, NY, USA',
-    description: ['temp'],
+    description: [
+      'Conducted research with Prof. Ken Segall on simulations of neurons using Superconducting Josephson Junctions. Purpose was to use neural dynamics to create logic components that could operate 100 times faster and be 300 times more efficient than traditional transistor based logic circuits.',
+      'Successfully created first working Josephson-Junction-neuron based half-adder, results allowed a clearer path to creating other logical components based on JJ-neurons.',
+      'Used Xic and WRspice to design and simulate circuits. Wrote scripts to automate testing of circuits and used MATLAB to analyze data.',
+    ],
     relavance: [],
     tags: [],
   },
@@ -19,7 +23,11 @@ export const experiences = [
     label: 'BorderX Labs',
     jobTitle: 'Front-end Engineer Intern',
     location: 'Shanghai, China',
-    description: ['temp'],
+    description: [
+      'Built internal software from scratch using React in collaboration with a backend programmer and a PM. System now used by entire sales team to easily send digital coupons to all customers via methods such as SMS, push notifications, email, etc., saving time and improving efficiency over previous methods of doing so.',
+      'Added features and user interface improvements to other internal systems written in legacy AngularJS, Angular, or React. Improvements allowed significant time savings for sales team.',
+      'Gained experience in interfacing with back-end systems, using continuous deployment, and writing pipeline scripts.',
+    ],
     relavance: [],
     tags: [],
   },
@@ -156,7 +164,7 @@ export const skills = {
       'Kinect SDK, Hololens SDK, Optris Pi SDK, Unity, Unreal Engine, Zigbee, MFC, 3D Printing, Next.js, Mocha, Jest, LaTeX',
   },
   arts: {
-    proficient: 'MS Office, Adobe Illustrator, Photoshop, NewTek Tricaster, MuseScore 3',
-    familiar: 'Adobe After Effects, Premier Pro, Audacity',
+    proficient: 'MS Office, Adobe Illustrator, Photoshop, NewTek Tricaster',
+    familiar: 'Adobe After Effects, Premier Pro, Audacity, MuseScore 3',
   },
 };

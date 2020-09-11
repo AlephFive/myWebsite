@@ -13,7 +13,8 @@ export const publications = [
       "TEI '19: Proceedings of the Thirteenth International Conference on Tangible, Embedded, and Embodied Interaction",
     location: 'Tempe, Arizona, USA',
     link: 'https://dl.acm.org/doi/10.1145/3294109.3295647',
-    download: '/files/IRELICS_Designing_a_Tangible_Interaction_Platform_for_the_Popularization_of_Field_Archaeology.pdf',
+    download:
+      '/files/IRELICS_Designing_a_Tangible_Interaction_Platform_for_the_Popularization_of_Field_Archaeology.pdf',
     relavance: [],
     tags: ['cs', 'hci', 'ee', 'coding'],
   },
