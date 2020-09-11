@@ -199,6 +199,17 @@ export const coursework = [
   },
   {
     type: '',
+    code: 'PHYS 232',
+    semester: 'Spring',
+    year: '2018',
+    title: 'Introduction to Mechanics',
+    description:
+      'A study of classical mechanics using astronomical themes. The principles of kinematics, dynamics, conservation laws, and gravitation are developed and used to understand the properties of astronomical objects such as planetary systems, binary stars, and galaxies. Treatment is more thorough than in PHYS 111. Differential and integral calculus and vector manipulation are used throughout. Two lectures, two recitation meetings, and one laboratory session per week.',
+    institution: 'Colgate University',
+    tags: ['math', 'physics'],
+  },
+  {
+    type: '',
     code: 'COSC 102',
     semester: 'Fall',
     year: '2017',

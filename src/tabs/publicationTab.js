@@ -83,7 +83,7 @@ function PublicationEntry(props) {
           <span> | {props.location}</span>
           <span> | {props.dateDescription}</span>
           <div>
-            <a href={props.link}>{props.link}</a>
+            <a href={props.link} target="_blank">{props.link}</a> {props.download ? <a href={props.download} target="_blank" download>Download</a>: ''}
           </div>
         </div>
         <br />
