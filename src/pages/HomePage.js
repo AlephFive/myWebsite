@@ -111,7 +111,7 @@ class HomePage extends React.Component {
                   <a href="/files/BrianShaoenMa_Resume.docx" target="_blank" download>
                     Word document
                   </a>{' '}
-                  formats, and you can send me an email at bm3027@columbia.edu {'      '} You can
+                  formats, and you can send me an email at bm3027@columbia.edu. {'      '} You can
                   also check out my <a href="#/contact">contact page</a> for more ways to reach out
                   to me.
                 </p>
