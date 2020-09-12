@@ -36,7 +36,7 @@ export const experiences = [
     startDate: { day: 1, month: 6, year: 2019 },
     endDate: { day: 1, month: 9, year: 2019 },
     dateDescription: 'Summer 2018',
-    label: 'Hulu Inc',
+    label: 'Hulu',
     jobTitle: 'Intern',
     location: 'Beijing, China',
     description: [
