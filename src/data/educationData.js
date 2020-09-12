@@ -26,7 +26,6 @@ export const education = [
       'Major: Physics',
       'Minors: Mathematics, Jewish Studies',
       'Attended for 3 years as part of the Columbia 3-2 Combined Plan Program',
-      'Extended Studies to Uzbekistan and Azerbaijan (SOSC 210: Oil and Water), and Lithuania (POSC/JWST 329: Politics of Nationalism and Memory)',
     ],
   },
   {
