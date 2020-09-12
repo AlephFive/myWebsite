@@ -150,7 +150,7 @@ export const otherExperiences = [
     endDate: { day: 1, month: 9, year: 2019 },
     dateDescription: 'Fall 2013 – Spring 2014',
     label: 'High School Raspberry Pi Club',
-    jobTitle: 'President',
+    jobTitle: 'Co-President',
     location: 'Beijing, China',
     description: [
       'Founded club with a group of peers and organised lessons using Raspberry Pi computers to teach Python programming, circuits, and electronics.',
