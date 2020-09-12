@@ -20,7 +20,7 @@ export const experiences = [
     startDate: { day: 1, month: 6, year: 2019 },
     endDate: { day: 1, month: 9, year: 2019 },
     dateDescription: 'Summer 2019',
-    label: 'BorderX Labs',
+    label: 'BorderX Lab',
     jobTitle: 'Front-end Engineer Intern',
     location: 'Shanghai, China',
     description: [
@@ -118,7 +118,7 @@ export const otherExperiences = [
     endDate: { day: 1, month: 9, year: 2019 },
     dateDescription: 'Fall 2018 – Spring 2020',
     label: 'Colgate University Photography Club',
-    jobTitle: 'Co-President (Spring 2020), Treasurer (Fall 2018 – Fall 2019)',
+    jobTitle: 'President (Spring 2020), Treasurer (Fall 2018 – Fall 2019)',
     location: 'Hamilton, NY, USA',
     description: [
       'Managed finances and collaborated with team members to successfully receive funding of around 19,000 USD to procure photography equipment.',
@@ -184,7 +184,7 @@ export const skills = {
     proficient:
       'Teensy, Arduino, OpenFrameworks, HTML/CSS, Git, React, Redux, Angular, AngularJS, Xic, WRspice',
     familiar:
-      'Kinect SDK, Hololens SDK, Optris Pi SDK, Unity, Unreal Engine, Zigbee, MFC, 3D Printing, Next.js, Mocha, Jest, LaTeX',
+      'Kinect SDK, Hololens SDK, Optris Pi SDK, Unity, Unreal Engine, Zigbee, MFC, 3D Printing, Next.js, Mocha, Jest, LaTeX, Google Analytics',
   },
   arts: {
     proficient: 'MS Office, Adobe Illustrator, Photoshop, NewTek Tricaster',
