@@ -12,7 +12,7 @@ export const experiences = [
       'Successfully created first working Josephson-Junction-neuron based half-adder, results allowed a clearer path to creating other logical components based on JJ-neurons.',
       'Used Xic and WRspice to design and simulate circuits. Wrote scripts to automate testing of circuits and used MATLAB to analyze data.',
     ],
-    relavance: [],
+    relevance: ['research', 'hardware', 'data', 'software', 'maths'],
     tags: [],
   },
   {
@@ -28,7 +28,7 @@ export const experiences = [
       'Added features and user interface improvements to other internal systems written in legacy AngularJS, Angular, or React. Improvements allowed significant time savings for sales team.',
       'Gained experience in interfacing with back-end systems, using continuous deployment, and writing pipeline scripts.',
     ],
-    relavance: [],
+    relevance: ['software', 'communication', 'design'],
     tags: [],
   },
   {
@@ -46,7 +46,7 @@ export const experiences = [
       'Fixed bug in eslint-import-resolver-babel-module, an open source NPM package with 143,000+ weekly downloads.',
       'Participated in Hulu Beijing Office Hackathon in a team of three and won “Coolest Hackathon Project” with RMB 2,000 prize out of 22 competing teams. Project was completed in 2 days and consisted of a “Katamari” ball able to pick up elements of any website and graphically display them as if picked up by a 3-dimensional ball. Wrote particle system and other physics effects based on knowledge from Physics courses.',
     ],
-    relavance: [],
+    relevance: ['software'],
     tags: [],
   },
   {
@@ -61,7 +61,7 @@ export const experiences = [
       'Participated in the development of a videoconferencing web service under the direction of Prof. Madeline Smith. Project allows for synced video-watching using HTML, CSS, JavaScript, WebRTC, Socket.io, and Apache web server.',
       'Provided technical assistance to other members of the team. ',
     ],
-    relavance: [],
+    relevance: ['software', 'research'],
     tags: [],
   },
   {
@@ -75,7 +75,7 @@ export const experiences = [
     description: [
       'Used Adobe Illustrator to convert field drawings of archaeological dig sites in Mexico into detailed digital illustrations suitable for publication.',
     ],
-    relavance: [],
+    relevance: ['design', 'communication'],
     tags: [],
   },
   {
@@ -91,7 +91,7 @@ export const experiences = [
       'Collaborated with graduate students to build interactive device that tracks input on a surface using temperature changes and a game based on the device. Implemented particle system, parts of input detection and game logic, and Arduino code for haptic tools. Used C++ OpenFrameworks library, XBee wireless communication, and various sensors for the haptic tools.',
       'Participated in numerous other projects. Edited 10+ papers in support of publication efforts and participated in design of user studies.',
     ],
-    relavance: [],
+    relevance: ['software', 'hardware', 'research', 'design', 'maths', 'data', 'communication'],
     tags: [],
   },
   {
@@ -106,7 +106,7 @@ export const experiences = [
       'Brought in by recommendation to debug and implement Kinect gesture control on a motion controlled robotic arm controlled via the internet. Used C# with Unity3D and Microsoft Kinect SDK.',
       'Exhibited result to the public at “Global Artificial Intelligence Summit Forum & Launching Ceremony of China (Hangzhou) Artificial Intelligence Town” as an official business exhibitor.',
     ],
-    relavance: [],
+    relevance: ['software', 'hardware'],
     tags: [],
   },
 ];
@@ -126,7 +126,7 @@ export const otherExperiences = [
       'Ran photography workshops on topics such as composition and photography software.',
       'Helped recruit new members, review leadership team applications, and organize projects such as Humans of Colgate and photography exhibitions.',
     ],
-    relavance: [],
+    relevance: ['leadership', 'communication', 'design'],
     tags: [],
   },
   {
@@ -141,7 +141,7 @@ export const otherExperiences = [
       'Designed marketing material for other clubs for purposes of recruitment.',
       'Planned workshops on Graphic Design and Adobe Illustrator.',
     ],
-    relavance: [],
+    relevance: ['leadership', 'communication', 'design'],
     tags: [],
   },
   {
@@ -155,7 +155,7 @@ export const otherExperiences = [
     description: [
       'Founded club with a group of peers and organised lessons using Raspberry Pi computers to teach Python programming, circuits, and electronics.',
     ],
-    relavance: [],
+    relevance: ['leadership', 'software', 'hardware'],
     tags: [],
   },
   {
@@ -170,7 +170,7 @@ export const otherExperiences = [
       'Led marketing department in which students made marketing material for student council sponsored events.',
       'Designed numerous posters for events and clubs using Adobe Photoshop and Illustrator.',
     ],
-    relavance: [],
+    relevance: ['leadership', 'communication', 'design'],
     tags: [],
   },
 ];

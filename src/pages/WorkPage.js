@@ -1,15 +1,67 @@
 import React from 'react';
 import ReactGA from 'react-ga';
-import { Container, Tab, Row, Col, Nav, Card } from 'react-bootstrap';
+import { Container, Tab, Row, Col, Nav, Card, Form } from 'react-bootstrap';
 import ResumeTab from '../tabs/resumeTab';
 import PublicationTab from '../tabs/publicationTab';
 import CourseworkTab from '../tabs/courseworkTab';
 import MusicTab from '../tabs/musicTab';
+import {FILTERS, FILTERNAMES} from '../data/TagReference';
+
 
 class WorkPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      filterList: [],
+    };
+    this.handleFilterChange = this.handleFilterChange.bind(this);
+  }
+  
+  handleFilterChange(event) {
+    const filterList = this.state.filterList.slice();
+    
+
+        if(event.target.checked){
+          filterList.push(event.target.value)
+        }
+        else{
+          filterList.splice(filterList.indexOf(event.target.value), 1);
+        }
+
+    this.setState({
+      filterList: filterList
+    });
+    
+  }
+
+
   componentDidMount() {
     ReactGA.pageview('work');
   }
+
+
+  displayForm() {
+    return(
+      
+      <Form>
+        {FILTERS.map((entry) => {
+          return(<Form.Check 
+            type='checkbox'
+            id={entry}
+            label={FILTERNAMES[entry]}
+            value={entry}
+            checked={this.state.filterList.includes(entry)} onChange={this.handleFilterChange}
+            />)
+          
+        })}
+        
+
+
+      </Form>
+      
+    )
+  }
+
   render() {
     return (
       <div>
@@ -49,20 +101,24 @@ class WorkPage extends React.Component {
                   </Nav.Item>
                 </Nav>
                 <br />
-                <Card style={{ display: 'none' }}>
-                  <Card.Body>Under Construction</Card.Body>
+                <Card>
+                  <Card.Header>I only want to see things related to...</Card.Header>
+                  <Card.Body>
+                    {this.displayForm()}
+                  </Card.Body>
                 </Card>
               </Col>
               <Col sm={9}>
-                <Tab.Content>
+                
+                <Tab.Content style={{ height: '50%' }}>
                   <Tab.Pane eventKey="first">
-                    <CourseworkTab />
+                    <CourseworkTab filters={this.state.filterList}/>
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
-                    <ResumeTab />
+                    <ResumeTab filters={this.state.filterList}/>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
-                    <PublicationTab />
+                    <PublicationTab filters={this.state.filterList}/>
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
                     <p>Under Construction</p>
@@ -74,6 +130,7 @@ class WorkPage extends React.Component {
                     <p>Under Construction</p>
                   </Tab.Pane>
                 </Tab.Content>
+                
               </Col>
             </Row>
           </Tab.Container>

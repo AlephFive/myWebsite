@@ -3,12 +3,12 @@ import { coursework } from '../data/courseworkData';
 import { education } from '../data/educationData';
 import { Container, Form, Row, Col, Card, Button, Collapse } from 'react-bootstrap';
 import { FaFantasyFlightGames } from 'react-icons/fa';
+import {reference_HasItemsFrom_this} from '../commonFunctions';
 
 class CourseworkTab extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      filter: [],
       open: true,
       setOpen: true,
     };
@@ -76,7 +76,10 @@ class CourseworkTab extends React.Component {
             </h3>
             <br />
             {coursework.map((entry) => {
-              return <CourseworkEntry data={entry} />;
+              if(this.props.filters.length <1 || reference_HasItemsFrom_this(this.props.filters, entry.relevance)){
+                return <CourseworkEntry data={entry} />;
+              }
+              
             })}
             <br />
             <br />
