@@ -5,8 +5,8 @@ import ResumeTab from '../tabs/resumeTab';
 import PublicationTab from '../tabs/publicationTab';
 import CourseworkTab from '../tabs/courseworkTab';
 import MusicTab from '../tabs/musicTab';
-import {FILTERS, FILTERNAMES} from '../data/TagReference';
-
+import { FILTERS, FILTERNAMES } from '../data/TagReference';
+import CertificationTab from '../tabs/certificationTab';
 
 class WorkPage extends React.Component {
   constructor(props) {
@@ -16,50 +16,42 @@ class WorkPage extends React.Component {
     };
     this.handleFilterChange = this.handleFilterChange.bind(this);
   }
-  
+
   handleFilterChange(event) {
     const filterList = this.state.filterList.slice();
-    
 
-        if(event.target.checked){
-          filterList.push(event.target.value)
-        }
-        else{
-          filterList.splice(filterList.indexOf(event.target.value), 1);
-        }
+    if (event.target.checked) {
+      filterList.push(event.target.value);
+    } else {
+      filterList.splice(filterList.indexOf(event.target.value), 1);
+    }
 
     this.setState({
-      filterList: filterList
+      filterList: filterList,
     });
-    
   }
-
 
   componentDidMount() {
     ReactGA.pageview('work');
   }
 
-
   displayForm() {
-    return(
-      
+    return (
       <Form>
         {FILTERS.map((entry) => {
-          return(<Form.Check 
-            type='checkbox'
-            id={entry}
-            label={FILTERNAMES[entry]}
-            value={entry}
-            checked={this.state.filterList.includes(entry)} onChange={this.handleFilterChange}
-            />)
-          
+          return (
+            <Form.Check
+              type="checkbox"
+              id={entry}
+              label={FILTERNAMES[entry]}
+              value={entry}
+              checked={this.state.filterList.includes(entry)}
+              onChange={this.handleFilterChange}
+            />
+          );
         })}
-        
-
-
       </Form>
-      
-    )
+    );
   }
 
   render() {
@@ -85,9 +77,7 @@ class WorkPage extends React.Component {
                     <Nav.Link eventKey="third">Publications</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fourth" style={{ display: 'none' }}>
-                      Projects
-                    </Nav.Link>
+                    <Nav.Link eventKey="fourth">Certifications</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="fifth" style={{ display: 'none' }}>
@@ -103,25 +93,22 @@ class WorkPage extends React.Component {
                 <br />
                 <Card>
                   <Card.Header>I only want to see things related to...</Card.Header>
-                  <Card.Body>
-                    {this.displayForm()}
-                  </Card.Body>
+                  <Card.Body>{this.displayForm()}</Card.Body>
                 </Card>
               </Col>
               <Col sm={9}>
-                
                 <Tab.Content style={{ height: '50%' }}>
                   <Tab.Pane eventKey="first">
-                    <CourseworkTab filters={this.state.filterList}/>
+                    <CourseworkTab filters={this.state.filterList} />
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
-                    <ResumeTab filters={this.state.filterList}/>
+                    <ResumeTab filters={this.state.filterList} />
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
-                    <PublicationTab filters={this.state.filterList}/>
+                    <PublicationTab filters={this.state.filterList} />
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
-                    <p>Under Construction</p>
+                    <CertificationTab filters={this.state.filterList} />
                   </Tab.Pane>
                   <Tab.Pane eventKey="fifth">
                     <p>Under Construction</p>
@@ -130,7 +117,6 @@ class WorkPage extends React.Component {
                     <p>Under Construction</p>
                   </Tab.Pane>
                 </Tab.Content>
-                
               </Col>
             </Row>
           </Tab.Container>

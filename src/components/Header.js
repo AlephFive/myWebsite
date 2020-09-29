@@ -21,7 +21,7 @@ class Header extends React.Component {
           </Nav>
           <Nav>
             <Nav.Link href="#contact">
-              <Button variant="outline-primary">Contact Me!</Button>
+              <Button variant="primary">Contact Me!</Button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

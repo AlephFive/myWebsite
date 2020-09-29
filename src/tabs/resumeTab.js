@@ -1,7 +1,7 @@
 import React from 'react';
 import { experiences, otherExperiences, skills } from '../data/resumeData';
 import { Container, Form, Row, Col, Card } from 'react-bootstrap';
-import {reference_HasItemsFrom_this} from '../commonFunctions';
+import { reference_HasItemsFrom_this } from '../commonFunctions';
 
 class ResumeTab extends React.Component {
   constructor(props) {
@@ -53,10 +53,12 @@ class ResumeTab extends React.Component {
             </h3>
             <br />
             {experiences.map((entry) => {
-              if(this.props.filters.length <1 || reference_HasItemsFrom_this(this.props.filters, entry.relevance)){
+              if (
+                this.props.filters.length < 1 ||
+                reference_HasItemsFrom_this(this.props.filters, entry.relevance)
+              ) {
                 return ExperienceEntry(entry);
               }
-              
             })}
             <br />
             <h3>
@@ -64,10 +66,12 @@ class ResumeTab extends React.Component {
             </h3>
             <br />
             {otherExperiences.map((entry) => {
-              if(this.props.filters.length <1 || reference_HasItemsFrom_this(this.props.filters, entry.relevance)){
+              if (
+                this.props.filters.length < 1 ||
+                reference_HasItemsFrom_this(this.props.filters, entry.relevance)
+              ) {
                 return ExperienceEntry(entry);
               }
-              
             })}
             <br />
             <h3>
