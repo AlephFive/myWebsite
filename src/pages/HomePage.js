@@ -29,7 +29,7 @@ class HomePage extends React.Component {
 
             <p>
               I'm <strong>Brian</strong>! I am currently a junior at{' '}
-              <strong>Columbia University</strong> majoring in <strong>Computer Science </strong>and a concentration in Visual Art.
+              <strong>Columbia University</strong> majoring in <strong>Computer Science </strong>and a concentration in <strong>Visual Art</strong>.
             </p>
             <p>
               I attended <strong>Colgate University </strong>from 2017 to 2020. I majored in{' '}
