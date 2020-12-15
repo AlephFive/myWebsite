@@ -12,6 +12,7 @@ import Header from './components/Header';
 import { Navbar, Row, Col, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import TempProjPage from './pages/TempProjPage';
 
 const trackingId = 'UA-161609832-1';
 
@@ -35,6 +36,7 @@ class App extends React.Component {
               <Route path="/blog" component={BlogMainPage} />
               <Route path="/blog-entry" component={BlogEntryPage} />
               <Route path="/contact" component={ContactPage} />
+              <Route path="/tempproj" component={TempProjPage} />
             </Switch>
           </Router>
         </Container>
