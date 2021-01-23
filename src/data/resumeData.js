@@ -1,5 +1,21 @@
 export const experiences = [
   {
+    value: 'ceal',
+    startDate: { day: 1, month: 6, year: 2019 },
+    endDate: { day: 1, month: 9, year: 2019 },
+    dateDescription: 'Fall 2020',
+    label: 'Columbia University, Computer-Enabled Abilities Laboratory',
+    jobTitle: 'Research Assistant',
+    location: 'New York, NY, USA',
+    description: [
+      'Conducted research with Prof. Brian Smith on techniques to enable blind accessibility in video games.',
+      'Implemented a new blind-enabled interaction method in Unity based on joystick controlled ray casting.',
+      'Worked on and debugged a blind-enabled driving game in preparation for media presentation.',
+    ],
+    relevance: ['research', 'software', 'design'],
+    tags: [],
+  },
+  {
     value: 'colgatePhysics',
     startDate: { day: 1, month: 6, year: 2019 },
     endDate: { day: 1, month: 9, year: 2019 },

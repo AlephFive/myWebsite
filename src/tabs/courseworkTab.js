@@ -53,11 +53,11 @@ class CourseworkTab extends React.Component {
           <Container>
             <div>
               You can download a shortened resume in{' '}
-              <a href="/files/BrianShaoenMa_Resume.pdf" target="_blank" download>
+              <a href="/files/BrianShaoenMa_1-22-21.pdf" target="_blank" download>
                 PDF
               </a>{' '}
               or{' '}
-              <a href="/files/BrianShaoenMa_Resume.docx" target="_blank" download>
+              <a href="/files/BrianShaoenMa_1-22-21.docx" target="_blank" download>
                 Word document
               </a>{' '}
               formats.

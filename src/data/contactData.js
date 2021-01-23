@@ -3,7 +3,7 @@ export const contactInfo = {
   email: 'bm3027@columbia.edu or bma@colgate.edu',
   addr: [
     { label: 'Line 1', value: '70 Morningside' },
-    { label: 'Line 2', value: 'F1554 Wien Hall' },
+    { label: 'Line 2', value: 'F1554 Wien Hall Columbia Student Mail' },
     { label: 'City-State', value: 'New York, NY' },
     { label: 'Zip', value: '10027-7236' },
   ],

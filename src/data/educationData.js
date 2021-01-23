@@ -10,7 +10,6 @@ export const education = [
     gpa: 'N/A',
     info: [
       'Major: Computer Science',
-      'Concentration: Visual Art',
       'Attending for 2 years as part of the Columbia 3-2 Combined Plan Program',
     ],
   },

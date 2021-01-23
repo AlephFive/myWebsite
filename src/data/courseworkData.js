@@ -13,6 +13,42 @@ export const coursework = [
   },*/
   {
     type: '',
+    code: 'COMS 6998',
+    semester: 'Spring',
+    year: '2021',
+    title: 'Human Computer Interaction',
+    description:
+      'This course is a graduate-level seminar in human–computer interaction (HCI), which is a cross-disciplinary field that studies (1) what computers are used for, (2) how people interact with computers, and (3) how either of those should change in the future. We will be reading, presenting, and discussing research papers that cover both the foundations and the frontiers of HCI. The papers represent many research areas within HCI: ubiquitous computing, mobile health, interaction techniques, social computing, mixed reality, accessibility, policy, and more. We will discuss both the papers and the research process behind them — both the substance and soul of HCI research. Students will practice giving research presentations and will complete an original HCI research project as part of the course. Our weekly meetings will focus on presentations, discussion, and project feedback.',
+    institution: 'Columbia University',
+    tags: ['cs', 'design'],
+    relevance: ['software', 'hardware', 'design', 'communication', 'research'],
+  },
+  {
+    type: '',
+    code: 'CSEE 3827',
+    semester: 'Spring',
+    year: '2021',
+    title: 'Fundamentals of Computer Systems',
+    description:
+      'Fundamentals of computer organization and digital logic. Boolean algebra, Karnaugh maps, basic gates and components, flipflops and latches, counters and state machines, basics of combinational and sequential digital design. Assembly language, instruction sets, ALU’s, single-cycle and multi-cycle processor design, introduction to pipelined processors, caches, and virtual memory.',
+    institution: 'Columbia University',
+    tags: ['math', 'cs', 'apmath'],
+    relevance: ['software', 'maths', 'hardware'],
+  },
+  {
+    type: '',
+    code: 'COMS 4733',
+    semester: 'Spring',
+    year: '2021',
+    title: 'Computational Aspects of Robotics',
+    description:
+      'Introduction to robotics from a computer science perspective. Topics include coordinate frames and kinematics, computer architectures for robotics, integration and use of sensors, world modeling systems, design and use of robotic programming languages, and applications of artificial intelligence for planning, assembly, and manipulation.',
+    institution: 'Columbia University',
+    tags: ['math', 'cs', 'apmath', 'physics'],
+    relevance: ['software', 'maths', 'hardware'],
+  },
+  {
+    type: '',
     code: 'COMS 4705',
     semester: 'Fall',
     year: '2020',

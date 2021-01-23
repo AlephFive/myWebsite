@@ -33,7 +33,7 @@ class AboutPage extends React.Component {
             <p>
               I am aspiring software and hardware developer with experience in front-end web
               development and electrical engineering. I am currently studying at Columbia University
-              with a major in Computer Science and a concentration in Visual Art. I attended Colgate University between 2017 and 2020
+              with a major in Computer Science. I attended Colgate University between 2017 and 2020
               and majored in Physics with minors in Mathematics and Jewish Studies.
             </p>
             <p>

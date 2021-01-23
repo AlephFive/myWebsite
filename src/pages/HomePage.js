@@ -29,7 +29,7 @@ class HomePage extends React.Component {
 
             <p>
               I'm <strong>Brian</strong>! I am currently a junior at{' '}
-              <strong>Columbia University</strong> majoring in <strong>Computer Science </strong>and a concentration in <strong>Visual Art</strong>.
+              <strong>Columbia University</strong> majoring in <strong>Computer Science</strong>.
             </p>
             <p>
               I attended <strong>Colgate University </strong>from 2017 to 2020. I majored in{' '}
@@ -104,11 +104,11 @@ class HomePage extends React.Component {
               <Card.Body>
                 <p>
                   You can download my shortened resume in{' '}
-                  <a href="/files/BrianShaoenMa_Resume.pdf" target="_blank" download>
+                  <a href="/files/BrianShaoenMa_1-22-21.pdf" target="_blank" download>
                     PDF
                   </a>{' '}
                   or{' '}
-                  <a href="/files/BrianShaoenMa_Resume.docx" target="_blank" download>
+                  <a href="/files/BrianShaoenMa_1-22-21.docx" target="_blank" download>
                     Word document
                   </a>{' '}
                   formats, and you can send me an email at bm3027@columbia.edu. {'      '} You can
