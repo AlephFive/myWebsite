@@ -33,8 +33,6 @@ class App extends React.Component {
               <Route path="/home" component={HomePage} />
               <Route path="/about" component={AboutPage} />
               <Route path="/work" component={WorkPage} />
-              <Route path="/blog" component={BlogMainPage} />
-              <Route path="/blog-entry" component={BlogEntryPage} />
               <Route path="/contact" component={ContactPage} />
               <Route path="/tempproj" component={TempProjPage} />
             </Switch>
