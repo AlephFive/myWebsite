@@ -31,7 +31,7 @@ class AboutPage extends React.Component {
             <h2>My name is Brian Ma 马绍恩</h2>
 
             <p>
-              I am aspiring software and hardware developer with experience in front-end web
+              I am aspiring developer with experience in front-end web
               development and electrical engineering. I am currently studying at Columbia University
               with a major in Computer Science. I attended Colgate University between 2017 and 2020
               and majored in Physics with minors in Mathematics and Jewish Studies.
@@ -52,7 +52,7 @@ class AboutPage extends React.Component {
               >
                 Youtube Channel
               </a>
-              . I also enjoy singing was a member of the Colgate University Chorus. My favourite
+              . I also enjoy singing and was a member of the Colgate University Chorus. My favourite
               book is <i>King Solomon's Ring</i> by Konrad Lorenz.
             </p>
             <p>
