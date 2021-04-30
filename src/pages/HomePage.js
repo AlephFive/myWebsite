@@ -117,12 +117,12 @@ class HomePage extends React.Component {
                 </p>
                 <h5>What are my interests?</h5>
                 <p>
-                  My primary interests are Human-Computer Interaction, Graphics, UX Design, Software
+                  My primary interests are Human-Computer Interaction, Graphic Design, UI/UX Design, Software
                   Engineering, Electrical Engineering, Physics, Machine Learning, and Language
                   Learning.
                 </p>
                 <h5>What am I up to now?</h5>
-                <p>I am currently looking for a summer internship!</p>
+                <p>I am conducting research with Professor Brian Smith over the summer on Human-Computer Interaction!</p>
               </Card.Body>
             </Card>
           </Col>
