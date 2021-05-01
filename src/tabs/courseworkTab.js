@@ -136,7 +136,7 @@ class CourseworkEntry extends React.Component {
           <Col sm={10}>
             <Collapse in={this.state.open}>
               <div>
-                <br />
+                
               </div>
             </Collapse>
           </Col>
