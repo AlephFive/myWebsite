@@ -41,8 +41,6 @@ export const education = [
     info: [
       'HL courses: Physics, Computer Science, Mathematics',
       'SL courses: English Language & Literature, Economics, Chinese',
-      'Internal Assesment (Maths): "Arrow’s Theorem: Determining a Voting Method for the Free Republic of Liberland"',
-      'Extended Essay: "What is the Optimal Structure for an Artificial Neural Network for Handwriting Recognition?"',
     ],
   },
 ];
