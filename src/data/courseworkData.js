@@ -13,6 +13,30 @@ export const coursework = [
   },*/
   {
     type: '',
+    code: 'COMS 4995',
+    semester: 'Summer',
+    year: '2021',
+    title: 'C++ for C Programmers',
+    description:
+      'N/A',
+    institution: 'Columbia University',
+    tags: ['cs'],
+    relevance: ['software', 'hardware']
+  },
+  {
+    type: '',
+    code: 'CSEE 4119',
+    semester: 'Summer',
+    year: '2021',
+    title: 'Computer Networks',
+    description:
+      'Introduction to computer networks and the technical foundations of the Internet, including applications, protocols, local area networks, algorithms for routing and congestion control, security, elementary performance evaluation. Several written and programming assignments required.',
+    institution: 'Columbia University',
+    tags: ['cs', 'math', 'apmath'],
+    relevance: ['software', 'hardware', 'maths']
+  },
+  {
+    type: '',
     code: 'COMS 6998',
     semester: 'Spring',
     year: '2021',
