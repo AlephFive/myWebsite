@@ -16,7 +16,7 @@ class Header extends React.Component {
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#work">Resume</Nav.Link>
             <Nav.Link href="https://nothatbrian.myportfolio.com/">Portfolio</Nav.Link>
-            <Nav.Link href="/blog">Blog</Nav.Link>
+            
           </Nav>
           <Nav>
             <Nav.Link href="#contact">
@@ -29,5 +29,6 @@ class Header extends React.Component {
     );
   }
 }
+//<Nav.Link href="/blog">Blog</Nav.Link>
 
 export default Header;
