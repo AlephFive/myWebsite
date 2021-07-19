@@ -18,7 +18,7 @@ export const coursework = [
     year: '2021',
     title: 'C++ for C Programmers',
     description:
-      'N/A',
+      'This course is a survey & analysis of C++ language from the C programmer’s perspective, focusing on how C++ features are implemented and to not just learn to use C++, but to understand it.  Topics include additional features on top of C, Object-Oriented Programming in C++ (Polymorphism, Multiple & virtual inheritance, I/O stream hierarchy), Generic Programming (Containers, iterators, algorithms, function objects and lambda), and RAII paradigm (Smart pointers).',
     institution: 'Columbia University',
     tags: ['cs'],
     relevance: ['software', 'hardware']
