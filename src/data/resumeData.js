@@ -3,7 +3,7 @@ export const experiences = [
     value: 'ceal',
     startDate: { day: 1, month: 6, year: 2019 },
     endDate: { day: 1, month: 9, year: 2019 },
-    dateDescription: 'Fall 2020',
+    dateDescription: 'Fall 2020 - Summer 2021',
     label: 'Columbia University, Computer-Enabled Abilities Laboratory',
     jobTitle: 'Research Assistant',
     location: 'New York, NY, USA',

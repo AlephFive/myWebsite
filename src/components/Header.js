@@ -15,7 +15,9 @@ class Header extends React.Component {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#work">Resume</Nav.Link>
+            <Nav.Link href="#publications">Publications</Nav.Link>
             <Nav.Link href="https://nothatbrian.myportfolio.com/">Portfolio</Nav.Link>
+            
             
           </Nav>
           <Nav>

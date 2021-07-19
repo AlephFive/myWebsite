@@ -5,6 +5,7 @@ import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import HomePage from './pages/HomePage';
 import WorkPage from './pages/WorkPage';
 import AboutPage from './pages/AboutPage';
+import PublicationPage from './pages/PublicationPage';
 import BlogMainPage from './pages/BlogMainPage';
 import BlogEntryPage from './pages/BlogEntryPage';
 import ContactPage from './pages/ContactPage';
@@ -33,6 +34,7 @@ class App extends React.Component {
               <Route path="/home" component={HomePage} />
               <Route path="/about" component={AboutPage} />
               <Route path="/work" component={WorkPage} />
+              <Route path="/publications" component={PublicationPage} />
               <Route path="/contact" component={ContactPage} />
               <Route path="/tempproj" component={TempProjPage} />
             </Switch>
@@ -40,7 +42,7 @@ class App extends React.Component {
         </Container>
         <footer>
           <div style={{ position: 'sticky', bottom: '0', left: '0', textAlign: 'center' }}>
-            <div>© 2020 Brian Ma</div>
+            <div>© 2020-2022 Brian Ma</div>
           </div>
         </footer>
       </div>

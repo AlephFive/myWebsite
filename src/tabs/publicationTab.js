@@ -60,7 +60,7 @@ class PublicationTab extends React.Component {
 function PublicationEntry(props) {
   return (
     <Row>
-      <Col sm={10}>
+      <Col sm={12}>
         <div>
           <h5>{props.title}</h5>
         </div>
