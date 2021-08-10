@@ -33,10 +33,7 @@ class CertificationTab extends React.Component {
             })}
             <br />
             <br />
-            <br />
-            <br />
-            <br />
-            <br />
+
           </Container>
         </Row>
       </Container>

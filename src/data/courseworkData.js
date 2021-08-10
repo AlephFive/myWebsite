@@ -268,7 +268,7 @@ export const coursework = [
     code: 'MATH 250',
     semester: 'Spring',
     year: '2018',
-    title: 'Number Theory and Mathematical Reasoning',
+    title: 'Number Theory & Mathematical Reasoning',
     description:
       'Questions about the positive integers 1, 2, 3 . . . have fascinated people for thousands of years. The ancient Greeks noted the existence of right triangles with sides of integral length, corresponding to equations such as 32 + 42 = 52 and 52 + 122 = 132. Is there a way of describing all such “Pythagorean Triples”? As another example, 5 = 12 + 22, 13 = 22 + 32, 17 = 12 + 42, while none of the primes 7, 11, or 19 can be expressed as the sum of two squares. Is there a pattern? Does it continue forever? This course focuses on such equations as a means for introducing students to the spirit and methods of modern mathematics. The emphasis throughout is on developing the ability to construct logically sound mathematical arguments and communicate these arguments in writing.',
     institution: 'Colgate University',

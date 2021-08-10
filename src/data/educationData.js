@@ -29,7 +29,7 @@ export const education = [
       'Extended Studies to Uzbekistan and Azerbaijan (SOSC 210: Oil and Water), and Lithuania (POSC/JWST 329: Politics of Nationalism and Memory)',
     ],
   },
-  {
+  /*{
     value: 'dcb',
     startDate: { day: 0, month: 3, year: 2019 },
     endDate: { day: 0, month: 3, year: 2019 },
@@ -42,5 +42,5 @@ export const education = [
       'HL courses: Physics, Computer Science, Mathematics',
       'SL courses: English Language & Literature, Economics, Chinese',
     ],
-  },
+  },*/
 ];

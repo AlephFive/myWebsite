@@ -4,7 +4,7 @@ import { Nav, Navbar, Button, Badge, NavDropdown, Container, Row, Col } from 're
 class Header extends React.Component {
   render() {
     return (
-      <Navbar bg="light" expand="lg" fixed="top" className="justify-content-center">
+      <Navbar bg="light" expand="lg" fixed="top" className="justify-content-center" style={{'box-shadow': '1px 1px 5px grey'}}>
         <span style={{ width: '12.5%' }} />
         <Navbar.Brand href="#home">
           <strong>Brian Shao-en Ma</strong>
@@ -14,9 +14,9 @@ class Header extends React.Component {
           <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#work">Resume</Nav.Link>
+            <Nav.Link href="#work">CV</Nav.Link>
             <Nav.Link href="#publications">Publications</Nav.Link>
-            <Nav.Link href="https://nothatbrian.myportfolio.com/">Portfolio</Nav.Link>
+            <Nav.Link href="https://nothatbrian.myportfolio.com/" target="_blank">Portfolio</Nav.Link>
             
             
           </Nav>

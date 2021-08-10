@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactGA from 'react-ga';
 import { Container, Tab, Row, Col, Nav, Card, Form } from 'react-bootstrap';
-import ResumeTab from '../tabs/resumeTab';
+import ResumeTabWork from '../tabs/resumeTabWork';
+import ResumeTabOther from '../tabs/resumeTabOther';
+import ResumeTabSkills from '../tabs/resumeTabSkills';
 import PublicationTab from '../tabs/publicationTab';
 import CourseworkTab from '../tabs/courseworkTab';
 import MusicTab from '../tabs/musicTab';
 import { FILTERS, FILTERNAMES } from '../data/TagReference';
 import CertificationTab from '../tabs/certificationTab';
+import EducationTab from '../tabs/educationTab';
 
 class WorkPage extends React.Component {
   constructor(props) {
@@ -71,7 +74,16 @@ class WorkPage extends React.Component {
                     <Nav.Link eventKey="first">Education</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">Experiences</Nav.Link>
+                    <Nav.Link eventKey="coursework">Coursework</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link eventKey="work">Work Experience</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link eventKey="other">Other Experience</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link eventKey="skills">Skills</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="third">Publications</Nav.Link>
@@ -97,12 +109,22 @@ class WorkPage extends React.Component {
                 </Card>
               </Col>
               <Col sm={9}>
-                <Tab.Content style={{ height: '50%' }}>
+                <div style={{overflow: 'hidden'}}>
+                <Tab.Content style={{ height: '48em', 'overflow-y': 'scroll', 'padding-right': '17px', 'box-sizing': 'content-box'}}>
                   <Tab.Pane eventKey="first">
+                    <EducationTab filters={this.state.filterList} />
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="coursework">
                     <CourseworkTab filters={this.state.filterList} />
                   </Tab.Pane>
-                  <Tab.Pane eventKey="second">
-                    <ResumeTab filters={this.state.filterList} />
+                  <Tab.Pane eventKey="work">
+                    <ResumeTabWork filters={this.state.filterList} />
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="other">
+                    <ResumeTabOther filters={this.state.filterList} />
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="skills">
+                    <ResumeTabSkills filters={this.state.filterList} />
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
                     <PublicationTab filters={this.state.filterList} />
@@ -117,6 +139,7 @@ class WorkPage extends React.Component {
                     <p>Under Construction</p>
                   </Tab.Pane>
                 </Tab.Content>
+                </div>
               </Col>
             </Row>
           </Tab.Container>

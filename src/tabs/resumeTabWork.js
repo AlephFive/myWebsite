@@ -1,8 +1,9 @@
 import React from 'react';
-import { publications } from '../data/publicationData';
+import { experiences, otherExperiences, skills } from '../data/resumeData';
 import { Container, Form, Row, Col, Card } from 'react-bootstrap';
+import { reference_HasItemsFrom_this } from '../commonFunctions';
 
-class PublicationTab extends React.Component {
+class ResumeTabWork extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -47,9 +48,24 @@ class PublicationTab extends React.Component {
         </Row>
         <Row>
           <Container>
-            {publications.map((entry) => {
-              return PublicationEntry(entry);
+            <h3>
+              <u>Work Experience</u>
+            </h3>
+            <br />
+            {experiences.map((entry) => {
+              if (
+                this.props.filters.length < 1 ||
+                reference_HasItemsFrom_this(this.props.filters, entry.relevance)
+              ) {
+                return ExperienceEntry(entry);
+              }
             })}
+            
+            <br />
+            <br />
+            <br />
+            <br />
+
           </Container>
         </Row>
       </Container>
@@ -58,47 +74,26 @@ class PublicationTab extends React.Component {
 }
 
 
-function PublicationEntry(props) {
+
+function ExperienceEntry(props) {
   return (
     <Row>
-      <Col sm={12}>
+      <Col sm={11}>
         <div>
-          <h5>{props.title}</h5>
+          <h5 style={{ display: 'inline' }}>{props.label}</h5>
         </div>
         <div>
           <span>
-            <u>Author{props.authors.length == 1 ? '' : 's'}</u>:{' '}
+            <strong>{props.jobTitle} </strong>
           </span>
-          {props.authors.map((name) => {
-            return name == 'Shao-en Ma' || name == 'Brian Ma' ? (
-              <span>
-                <strong>{name}</strong>,{' '}
-              </span>
-            ) : (
-              <span>{name}, </span>
-            );
-          })}
         </div>
         <div>
-          <i>{props.book}</i>
-          <span> | {props.location}</span>
-          <span> | {props.dateDescription}</span>
-          <div>
-            <a href={props.link} target="_blank">
-              {props.link}
-            </a>{' '}
-            {props.download ? (
-              <span>
-                {' '}
-                |{' '}
-                <a href={props.download} target="_blank" download>
-                  Download
-                </a>
-              </span>
-            ) : (
-              ''
-            )}
-          </div>
+          {props.location} | {props.dateDescription}
+        </div>
+        <div>
+          {props.description.map((line) => {
+            return <div style={{ fontSize: '0.78em' }}>• {line}</div>;
+          })}
         </div>
         <br />
       </Col>
@@ -106,4 +101,12 @@ function PublicationEntry(props) {
   );
 }
 
-export default PublicationTab;
+function convertToDateString(info) {
+  return (
+    <span>
+      {info.day}/{info.month}/{info.year}
+    </span>
+  );
+}
+
+export default ResumeTabWork;

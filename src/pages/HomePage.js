@@ -96,25 +96,28 @@ class HomePage extends React.Component {
           </Col>
         </Row>
         <Row>
+          <Col sm={{ span: 8, offset: 4 }} style={{ textAlign: 'left' }}>
+            <br/>
+            <div>
+              You can download my resume in{' '}
+              <a href="/files/BrianShaoenMa_1-22-21.pdf" target="_blank" download>
+                PDF
+              </a>{' '}
+              or{' '}
+              <a href="/files/BrianShaoenMa_1-22-21.docx" target="_blank" download>
+                Word document
+              </a>{' '}
+              formats.
+            </div>
+          </Col>
+        </Row>
+        <Row>
           <br />
         </Row>
         <Row>
           <Col sm={{ span: 8, offset: 2 }} style={{ textAlign: 'left' }}>
             <Card>
               <Card.Body>
-                <p>
-                  You can download my shortened resume in{' '}
-                  <a href="/files/BrianShaoenMa_1-22-21.pdf" target="_blank" download>
-                    PDF
-                  </a>{' '}
-                  or{' '}
-                  <a href="/files/BrianShaoenMa_1-22-21.docx" target="_blank" download>
-                    Word document
-                  </a>{' '}
-                  formats, and you can send me an email at bm3027@columbia.edu. {'      '} You can
-                  also check out my <a href="#/contact">contact page</a> for more ways to reach out
-                  to me.
-                </p>
                 <h5>What are my interests?</h5>
                 <p>
                   My primary interests are Human-Computer Interaction, Graphic Design, UI/UX Design, Software

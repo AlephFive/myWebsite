@@ -3,7 +3,7 @@ import { experiences, otherExperiences, skills } from '../data/resumeData';
 import { Container, Form, Row, Col, Card } from 'react-bootstrap';
 import { reference_HasItemsFrom_this } from '../commonFunctions';
 
-class ResumeTab extends React.Component {
+class ResumeTabOther extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -49,19 +49,6 @@ class ResumeTab extends React.Component {
         <Row>
           <Container>
             <h3>
-              <u>Work Experience</u>
-            </h3>
-            <br />
-            {experiences.map((entry) => {
-              if (
-                this.props.filters.length < 1 ||
-                reference_HasItemsFrom_this(this.props.filters, entry.relevance)
-              ) {
-                return ExperienceEntry(entry);
-              }
-            })}
-            <br />
-            <h3>
               <u>Other Experience</u>
             </h3>
             <br />
@@ -74,17 +61,8 @@ class ResumeTab extends React.Component {
               }
             })}
             <br />
-            <h3>
-              <u>Skills</u>
-            </h3>
             <br />
-            {SkillsEntry(skills)}
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            
           </Container>
         </Row>
       </Container>
@@ -92,66 +70,10 @@ class ResumeTab extends React.Component {
   }
 }
 
-function SkillsEntry(skills) {
-  return (
-    <Row>
-      <Col sm={10}>
-        <strong>Programming Languages</strong>
-        <div>
-          <div>
-            <u>
-              <i>Proficient:</i>
-            </u>{' '}
-            {skills.progLangs.proficient}
-          </div>
-          <div></div>
-          <u>
-            <i>Familiar:</i>
-          </u>{' '}
-          {skills.progLangs.familiar}
-        </div>
-        <br />
-        <strong>Technologies</strong>
-        <div>
-          <div>
-            <u>
-              <i>Proficient:</i>
-            </u>{' '}
-            {skills.technologies.proficient}
-          </div>
-          <div>
-            <u>
-              <i>Familiar:</i>
-            </u>{' '}
-            {skills.technologies.familiar}
-          </div>
-        </div>
-        <br />
-        <strong>Other</strong>
-        <div>
-          <div>
-            <u>
-              <i>Proficient:</i>
-            </u>{' '}
-            {skills.arts.proficient}
-          </div>
-          <div>
-            <u>
-              <i>Familiar:</i>
-            </u>{' '}
-            {skills.arts.familiar}
-          </div>
-        </div>
-        <br />
-      </Col>
-    </Row>
-  );
-}
-
 function ExperienceEntry(props) {
   return (
     <Row>
-      <Col sm={10}>
+      <Col sm={11}>
         <div>
           <h5 style={{ display: 'inline' }}>{props.label}</h5>
         </div>
@@ -182,4 +104,4 @@ function convertToDateString(info) {
   );
 }
 
-export default ResumeTab;
+export default ResumeTabOther;

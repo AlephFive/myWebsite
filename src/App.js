@@ -26,7 +26,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <div style={{ height: '60px' }} />
+        <div style={{ height: '65px' }} />
         <Container style={{ minHeight: '88vh' }}>
           <Router>
             <Switch>
@@ -41,7 +41,7 @@ class App extends React.Component {
           </Router>
         </Container>
         <footer>
-          <div style={{ position: 'sticky', bottom: '0', left: '0', textAlign: 'center' }}>
+          <div style={{ position: 'sticky', bottom: '0', left: '0', textAlign: 'center'}}>
             <div>© 2020-2022 Brian Ma</div>
           </div>
         </footer>

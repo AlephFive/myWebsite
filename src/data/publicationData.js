@@ -1,8 +1,24 @@
 export const publications = [
   {
+    type: 'demo',
+    value: 'acousticMinimap',
+    date: { day: 0, month: 10, year: 2021 },
+    dateDescription: 'October 2021',
+    title:
+      'Towards a Generalized Acoustic Minimap for Visually Impaired Gamers',
+    abstract:
+      'Video games created for visually impaired players (VIPs) remain inequivalent to those created for sighted players. Sighted players use minimaps within games to learn how their surrounding environment is laid out, but there is no effective analogue to the minimap for visually impaired players. A major accessibility challenge is to create a generalized, acoustic (non-visual) version of the minimap for VIPs. To address this challenge, we develop and investigate four acoustic minimap techniques which represent a breadth of ideas for how an acoustic minimap might work: a companion smartphone app, echolocation, a directional scanner, and a simple menu. Each technique is designed to communicate information about the area around the player within a game world, providing functionality analogous to a visual minimap but in acoustic form. We close by describing a user study that we are performing with these techniques to investigate the factors that are important in the design of acoustic minimap tools.',
+    authors: ['Vishnu Nair', 'Shao-en Ma', 'Hannah Huddleston', 'Karen Lin', 'Mason Hayes', 'Matthew Donnelly', 'Ricardo Gonzalez', 'Yicheng He', 'Brian A. Smith'],
+    book:
+      "UIST '21: The 34th Annual ACM Symposium on User Interface Software and Technology",
+    location: 'Virtual',
+    relavance: [],
+    tags: ['cs', 'hci', 'ee', 'coding'],
+  },
+  {
     type: 'paper',
     value: 'irelics',
-    date: { day: 0, month: 3, year: 2019 },
+    date: { day: 17, month: 3, year: 2019 },
     dateDescription: 'March 2019',
     title:
       'IRelics: Designing a Tangible Interaction Platform for the Popularization of Field Archaeology',
