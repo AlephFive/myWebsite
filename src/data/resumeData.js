@@ -161,6 +161,22 @@ export const otherExperiences = [
     tags: [],
   },
   {
+    value: 'livestream',
+    startDate: { day: 1, month: 6, year: 2019 },
+    endDate: { day: 1, month: 9, year: 2019 },
+    dateDescription: 'Fall 2014 – Spring 2016',
+    label: 'High School Event Livestream Team',
+    jobTitle: 'Team Director',
+    location: 'Beijing, China',
+    description: [
+      'Directed and coordinated teams of 2-3 cameramen to film school events from multiple angles.',
+      'Edited audio and video in real time using NewTek Tricaster.',
+      'Streamed events to Livestream.com for an audience of 80+',
+    ],
+    relevance: ['leadership', 'communication',],
+    tags: [],
+  },
+  {
     value: 'raspberrypi',
     startDate: { day: 1, month: 6, year: 2019 },
     endDate: { day: 1, month: 9, year: 2019 },
@@ -189,21 +205,22 @@ export const otherExperiences = [
     relevance: ['leadership', 'communication', 'design'],
     tags: [],
   },
+  
 ];
 
 export const skills = {
   progLangs: {
-    proficient: 'C++, C#, Java, JavaScript, MATLAB',
-    familiar: 'Python, R, Processing, Go, Mathematica',
+    proficient: 'C++, C#, Java, JavaScript, MATLAB, Python',
+    familiar: 'R, Processing, Go, Mathematica',
   },
   technologies: {
     proficient:
-      'Teensy, Arduino, OpenFrameworks, HTML/CSS, Git, React, Redux, Angular, AngularJS, Xic, WRspice',
+      'Unity, Teensy, Arduino, OpenFrameworks, HTML/CSS, Git, React, Redux, Angular, AngularJS, Xic, WRspice',
     familiar:
-      'Kinect SDK, Hololens SDK, Optris Pi SDK, Unity, Unreal Engine, Zigbee, MFC, 3D Printing, Next.js, Mocha, Jest, LaTeX, Google Analytics',
+      'Kinect SDK, Hololens SDK, Optris Pi SDK,  Unreal Engine, Zigbee, MFC, 3D Printing, Next.js, Mocha, Jest, LaTeX, Google Analytics',
   },
   arts: {
-    proficient: 'MS Office, Adobe Illustrator, Photoshop, NewTek Tricaster',
+    proficient: 'Adobe Illustrator, Photoshop, NewTek Tricaster, MS Office',
     familiar: 'Adobe After Effects, Premier Pro, Audacity, MuseScore 3',
   },
 };
