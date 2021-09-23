@@ -28,7 +28,7 @@ class HomePage extends React.Component {
             <h2 style={{ color: '#FFFFFF', display: 'inline' }}> General Kenobi!</h2>
 
             <p>
-              I'm <strong>Brian</strong>! I am currently a junior at{' '}
+              I'm <strong>Brian</strong>! I am currently a senior at{' '}
               <strong>Columbia University</strong> majoring in <strong>Computer Science</strong>.
             </p>
             <p>
