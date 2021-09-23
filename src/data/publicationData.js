@@ -1,5 +1,5 @@
 export const publications = [
-  /*{
+  {
     type: 'demo',
     value: 'acousticMinimap',
     date: { day: 0, month: 10, year: 2021 },
@@ -14,7 +14,7 @@ export const publications = [
     location: 'Virtual',
     relavance: [],
     tags: ['cs', 'hci', 'ee', 'coding'],
-  },*/
+  },
   {
     type: 'paper',
     value: 'irelics',
