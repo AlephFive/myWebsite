@@ -13,7 +13,7 @@ export const publications = [
       "UIST '21: The 34th Annual ACM Symposium on User Interface Software and Technology",
     location: 'Virtual',
     relavance: [],
-    tags: ['cs', 'hci', 'ee', 'coding'],
+    tags: ['cs', 'hci', 'coding'],
   },
   {
     type: 'paper',
