@@ -125,7 +125,7 @@ class HomePage extends React.Component {
                   Learning.
                 </p>
                 <h5>What am I up to now?</h5>
-                <p>I am conducting research with Professor Brian Smith over the summer on Human-Computer Interaction!</p>
+                <p>I am currently a TA for Columbia's UI design class!</p>
               </Card.Body>
             </Card>
           </Col>
