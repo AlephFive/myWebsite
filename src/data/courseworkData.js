@@ -1,16 +1,40 @@
 export const coursework = [
-  /*{
+  {
+  type: '',
+  code: 'COMS 6998 Sec2',
+  semester: 'Fall',
+  year: '2021',
+  title: 'Advanced Web Design Studio',
+  description:
+    'A studio class in which students design and build prototypes for emerging technologies.',
+  institution: 'Columbia University',
+  tags: ['software', 'design', 'communication', 'research'],
+  relevance: []
+  },
+  {
+    type: '',
+    code: 'COMS 4731',
+    semester: 'Fall',
+    year: '2021',
+    title: 'Computer Vision I: First Principles',
+    description:
+      'Introductory course in computer vision. Topics include image formation and optics, image sensing, binary images, image processing and filtering, edge extraction and boundary detection, region growing and segmentation, pattern classification methods, brightness and reflectance, shape from shading and photometric stereo, texture, binocular stereo, optical flow and motion, 2D and 3D object representation, object recognition, vision systems and applications.',
+    institution: 'Columbia University',
+    tags: ['math', 'apmath', 'software', 'hardware'],
+    relevance: []
+  },
+  {
     type: '',
     code: 'STAT 4001',
     semester: 'Fall',
-    year: '2020',
+    year: '2021',
     title: 'Intro to Probability and Statistics',
     description:
       'A calculus-based tour of the fundamentals of probability theory and statistical inference. Probability models, random variables, useful distributions, conditioning, expectations, law of large numbers, central limit theorem, point and confidence interval estimation, hypothesis tests, linear regression.',
     institution: 'Columbia University',
     tags: ['math', 'apmath'],
     relevance: []
-  },*/
+  },
   {
     type: '',
     code: 'COMS 4995',
