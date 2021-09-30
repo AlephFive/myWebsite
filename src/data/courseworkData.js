@@ -8,8 +8,8 @@ export const coursework = [
   description:
     'A studio class in which students design and build prototypes for emerging technologies.',
   institution: 'Columbia University',
-  tags: ['software', 'design', 'communication', 'research'],
-  relevance: []
+  tags: [],
+  relevance: ['software', 'design', 'communication', 'research']
   },
   {
     type: '',
@@ -20,8 +20,8 @@ export const coursework = [
     description:
       'Introductory course in computer vision. Topics include image formation and optics, image sensing, binary images, image processing and filtering, edge extraction and boundary detection, region growing and segmentation, pattern classification methods, brightness and reflectance, shape from shading and photometric stereo, texture, binocular stereo, optical flow and motion, 2D and 3D object representation, object recognition, vision systems and applications.',
     institution: 'Columbia University',
-    tags: ['math', 'apmath', 'software', 'hardware'],
-    relevance: []
+    tags: ['math', 'apmath'],
+    relevance: ['software', 'hardware', 'maths']
   },
   {
     type: '',
@@ -33,7 +33,7 @@ export const coursework = [
       'A calculus-based tour of the fundamentals of probability theory and statistical inference. Probability models, random variables, useful distributions, conditioning, expectations, law of large numbers, central limit theorem, point and confidence interval estimation, hypothesis tests, linear regression.',
     institution: 'Columbia University',
     tags: ['math', 'apmath'],
-    relevance: []
+    relevance: ['maths', 'software', 'hardware']
   },
   {
     type: '',
