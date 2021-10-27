@@ -1,18 +1,36 @@
 export const experiences = [
   {
+    value: 'uidesign',
+    startDate: { day: 1, month: 9, year: 2021 },
+    endDate: { day: 1, month: 12, year: 2021 },
+    dateDescription: 'Fall 2021',
+    label: 'Columbia University, COMS W4170 User Interface Design',
+    jobTitle: 'Teaching Assistant',
+    location: 'New York, NY, USA',
+    description: [
+      'Served as mentor to 16 students, providing guidance and feedback as they worked on an individual design project using the User Centered Design process.',
+      'Guided students as they performed Contextual Inquiries, Storyboarding, Rapid Prototyping, and Study Design.',
+      'Assisted students in learning design software such as Basalmiq and Figma, as well as web technologies such as HTML/CSS/Javascript.',
+      'Answered student questions and provided advice at office hours and online, and graded bi-weekly homework assignments.'
+    ],
+    relevance: ['research', 'software', 'design', 'data'],
+    tags: [],
+  },
+  {
     value: 'ceal',
     startDate: { day: 1, month: 6, year: 2019 },
     endDate: { day: 1, month: 9, year: 2019 },
     dateDescription: 'Fall 2020 - Summer 2021',
-    label: 'Columbia University, Computer-Enabled Abilities Laboratory',
+    label: 'Columbia University, (HCI) Computer-Enabled Abilities Laboratory',
     jobTitle: 'Research Assistant',
     location: 'New York, NY, USA',
     description: [
       'Conducted research with Prof. Brian Smith on techniques to enable blind accessibility in video games.',
-      'Implemented a new blind-enabled interaction method in Unity based on joystick controlled ray casting.',
-      'Worked on and debugged a blind-enabled driving game in preparation for media presentation.',
+      'Implemented a new blind-enabled interaction method in Unity based on joystick-controlled ray casting.',
+      'Designed and performed two user studies on visually impaired gamers. Performed analysis and participated in written presentation of results.',
+      'Second author on two resulting publications, one presented at UIST and the other currently under review at CHI.'
     ],
-    relevance: ['research', 'software', 'design'],
+    relevance: ['research', 'software', 'design', 'data', 'maths'],
     tags: [],
   },
   {
