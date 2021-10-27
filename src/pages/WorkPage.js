@@ -15,7 +15,7 @@ class WorkPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      filterList: ['design'],
+      filterList: [],
     };
     this.handleFilterChange = this.handleFilterChange.bind(this);
   }

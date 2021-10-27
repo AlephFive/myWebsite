@@ -1,7 +1,7 @@
 export const coursework = [
   {
   type: '',
-  code: 'COMS 6998 Sec2',
+  code: 'COMS 6998',
   semester: 'Fall',
   year: '2021',
   title: 'Advanced Web Design Studio',
