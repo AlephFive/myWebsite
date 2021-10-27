@@ -67,6 +67,22 @@ function SkillsEntry(skills) {
   return (
     <Row>
       <Col sm={11}>
+        <strong>Design</strong>
+        <div>
+          <div>
+            <u>
+              <i>Proficient:</i>
+            </u>{' '}
+            {skills.arts.proficient}
+          </div>
+          <div>
+            <u>
+              <i>Familiar:</i>
+            </u>{' '}
+            {skills.arts.familiar}
+          </div>
+        </div>
+        <br />
         <strong>Programming Languages</strong>
         <div>
           <div>
@@ -98,22 +114,7 @@ function SkillsEntry(skills) {
           </div>
         </div>
         <br />
-        <strong>Other</strong>
-        <div>
-          <div>
-            <u>
-              <i>Proficient:</i>
-            </u>{' '}
-            {skills.arts.proficient}
-          </div>
-          <div>
-            <u>
-              <i>Familiar:</i>
-            </u>{' '}
-            {skills.arts.familiar}
-          </div>
-        </div>
-        <br />
+        
       </Col>
     </Row>
   );

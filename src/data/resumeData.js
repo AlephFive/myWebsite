@@ -228,17 +228,17 @@ export const otherExperiences = [
 
 export const skills = {
   progLangs: {
-    proficient: 'C++, C#, Java, JavaScript, MATLAB, Python',
-    familiar: 'R, Processing, Go, Mathematica',
+    proficient: 'C++, C#, C, Java, JavaScript, MATLAB, Python',
+    familiar: 'R, Processing, Go, Mathematica, Assembly',
   },
   technologies: {
     proficient:
-      'Unity, Teensy, Arduino, OpenFrameworks, HTML/CSS, Git, React, Redux, Angular, AngularJS, Xic, WRspice',
+      'Unity, HTML/CSS, React, Angular, AngularJS, Teensy, Arduino, OpenFrameworks, Git, React, Redux, Xic, WRspice',
     familiar:
-      'Kinect SDK, Hololens SDK, Optris Pi SDK,  Unreal Engine, Zigbee, MFC, 3D Printing, Next.js, Mocha, Jest, LaTeX, Google Analytics',
+      'Kinect SDK, Hololens SDK, Optris Pi SDK, Unreal Engine, Zigbee, MFC, 3D Printing, Next.js, Mocha, Jest, LaTeX, Google Analytics',
   },
   arts: {
-    proficient: 'Adobe Illustrator, Photoshop, NewTek Tricaster, MS Office',
-    familiar: 'Adobe After Effects, Premier Pro, Audacity, MuseScore 3',
+    proficient: 'Figma, Basalmiq, Adobe XD, Illustrator, Photoshop, Premiere Pro',
+    familiar: 'Adobe After Effects',
   },
 };
