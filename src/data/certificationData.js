@@ -9,7 +9,7 @@ export const certifications = [
       'A collection of three courses dedicated to how to reason, analyze, and write critically followed by an 8-week final project. The Reasoning, Data Analysis, and Writing Specialization teaches skills needed to build a well-reasoned, critical argument in writing. Successful participants will be able to analyze data, evaluate arguments, and write persuasively.',
     institution: 'Duke University, Coursera',
     tags: ['math', 'apmath'],
-    relevance: ['software', 'maths', 'data', 'communication', 'research'],
+    relevance: ['software', 'maths', 'data', 'communication', 'research', 'design'],
   },
   {
     type: '',
@@ -21,7 +21,7 @@ export const certifications = [
       'The course gives an overview of the data, questions, and tools that data analysts and data scientists work with. There are two components to this course. The first is a conceptual introduction to the ideas behind turning data into actionable knowledge. The second is a practical introduction to the tools that will be used in the program like version control, markdown, git, GitHub, R, and RStudio.',
     institution: 'Johns Hopkins University, Coursera',
     tags: ['math', 'apmath'],
-    relevance: ['software', 'maths', 'data', 'research'],
+    relevance: ['software', 'maths', 'data', 'research', 'design'],
   },
   {
     type: '',
