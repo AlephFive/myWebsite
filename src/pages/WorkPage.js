@@ -110,7 +110,7 @@ class WorkPage extends React.Component {
               </Col>
               <Col sm={9}>
                 <div style={{overflow: 'hidden'}}>
-                <Tab.Content style={{ height: '48em', 'overflow-y': 'scroll', 'padding-right': '17px', 'box-sizing': 'content-box'}}>
+                <Tab.Content style={{ height: '80vh', 'overflow-y': 'scroll', 'padding-right': '17px', 'box-sizing': 'content-box'}}>
                   <Tab.Pane eventKey="first">
                     <EducationTab filters={this.state.filterList} />
                   </Tab.Pane>

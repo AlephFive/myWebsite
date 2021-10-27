@@ -1,12 +1,12 @@
 export const FILTERS = [
+  'design',
+  'research',
+  'leadership',
+  'communication',
+  'data',
   'software',
   'hardware',
-  'data',
   'maths',
-  'leadership',
-  'research',
-  'design',
-  'communication',
 ];
 export const FILTERNAMES = {
   design: 'Design',
