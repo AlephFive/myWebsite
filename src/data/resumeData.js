@@ -233,9 +233,9 @@ export const skills = {
   },
   technologies: {
     proficient:
-      'Unity, HTML/CSS, React, Angular, AngularJS, Teensy, Arduino, OpenFrameworks, Git, React, Redux, Xic, WRspice',
+      'Unity, HTML/CSS, React, Angular, AngularJS, Teensy, Arduino, OpenFrameworks, Git, Xic, WRspice',
     familiar:
-      'Kinect SDK, Hololens SDK, Optris Pi SDK, Unreal Engine, Zigbee, MFC, 3D Printing, Next.js, Mocha, Jest, LaTeX, Google Analytics',
+      'Heroku, Kinect SDK, Hololens SDK, Optris Pi SDK, Unreal Engine, Zigbee, MFC, 3D Printing, Next.js, Mocha, Jest, LaTeX, Google Analytics',
   },
   arts: {
     proficient: 'Figma, Basalmiq, Adobe XD, Illustrator, Photoshop, Premiere Pro',
