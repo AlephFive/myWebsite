@@ -1,6 +1,6 @@
 export const contactInfo = {
   phone: '+1 425-524-6671',
-  email: 'bm3027@columbia.edu or bma@colgate.edu',
+  email: 'bm3027(at)columbia.edu or bma(at)colgate.edu',
   addr: [
     { label: 'Name', value: 'Brian Ma' },
     { label: 'Line 1', value: '70 Morningside' },

@@ -24,15 +24,9 @@ class ContactPage extends React.Component {
           <Col sm={{ span: 8, offset: 2 }}>
             <Card>
               <Card.Body>
-                {contactItem('Phone', c.phone)}
                 {contactItem('Email', c.email)}
-                {contactItem('Address', c.addr)}
-                <Row>
-                  <Col sm={{ span: 8, offset: 2 }}>
-                    <br />
-                    <p>Please send me a postcard! {':)'}</p>
-                  </Col>
-                </Row>
+                
+                
               </Card.Body>
             </Card>
           </Col>
@@ -41,6 +35,15 @@ class ContactPage extends React.Component {
     );
   }
 }
+
+/*
+                <Row>
+                  <Col sm={{ span: 8, offset: 2 }}>
+                    <br />
+                    <p>Please send me a postcard! {':)'}</p>
+                  </Col>
+                </Row>
+*/
 
 function contactItem(label, data) {
   return (
