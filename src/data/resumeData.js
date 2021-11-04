@@ -13,7 +13,7 @@ export const experiences = [
       'Assisted students in learning design software such as Basalmiq and Figma, as well as web technologies such as HTML/CSS/Javascript.',
       'Answered student questions and provided advice at office hours and online, and graded bi-weekly homework assignments.'
     ],
-    relevance: ['research', 'software', 'design', 'data'],
+    relevance: ['research', 'software', 'design', 'data', 'leadership'],
     tags: [],
   },
   {
