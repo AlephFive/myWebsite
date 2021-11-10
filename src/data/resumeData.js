@@ -26,8 +26,8 @@ export const experiences = [
     location: 'New York, NY, USA',
     description: [
       'Conducted research with Prof. Brian Smith on techniques to enable blind accessibility in video games.',
-      'Implemented a new blind-enabled interaction method in Unity based on joystick-controlled ray casting.',
-      'Designed and performed two user studies on visually impaired gamers. Performed analysis and participated in written presentation of results.',
+      'Helped implement a new blind-enabled interaction method in Unity based on joystick-controlled ray casting.',
+      'Designed and performed numerous user studies with visually impaired gamers. Performed analysis and participated in written presentation of results.',
       'Second author on two resulting publications, one presented at UIST and the other currently under review at CHI.'
     ],
     relevance: ['research', 'software', 'design', 'data', 'maths'],
