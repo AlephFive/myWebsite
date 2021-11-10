@@ -100,11 +100,11 @@ class HomePage extends React.Component {
             <br/>
             <div>
               You can download my resume in{' '}
-              <a href="/files/BrianShaoenMa_1-22-21.pdf" target="_blank" download>
+              <a href="/files/BrianShaoenMa_Resume_PM.pdf" target="_blank" download>
                 PDF
               </a>{' '}
               or{' '}
-              <a href="/files/BrianShaoenMa_1-22-21.docx" target="_blank" download>
+              <a href="/files/BrianShaoenMa_Resume_PM.docx" target="_blank" download>
                 Word document
               </a>{' '}
               formats.
@@ -118,6 +118,10 @@ class HomePage extends React.Component {
           <Col sm={{ span: 8, offset: 2 }} style={{ textAlign: 'left' }}>
             <Card>
               <Card.Body>
+                <h5>Who am I?</h5>
+                <p>
+                  I'm a UI/UX Designer who loves to solve user problems with creative solutions inspired by my diverse interests as well as my cultural and academic backgrounds.
+                </p>
                 <h5>What are my interests?</h5>
                 <p>
                   My primary interests are Human-Computer Interaction, Graphic Design, UI/UX Design, Software

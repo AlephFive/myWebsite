@@ -11,7 +11,7 @@ export const experiences = [
       'Served as mentor to 16 students, providing guidance and feedback as they worked on an individual design project using the User Centered Design process.',
       'Guided students as they performed Contextual Inquiries, Storyboarding, Rapid Prototyping, and Study Design.',
       'Assisted students in learning design software such as Basalmiq and Figma, as well as web technologies such as HTML/CSS/Javascript.',
-      'Answered student questions and provided advice at office hours and online, and graded bi-weekly homework assignments.'
+      'Answered student questions and provided advice at office hours and online and graded bi-weekly homework assignments.'
     ],
     relevance: ['research', 'software', 'design', 'data', 'leadership'],
     tags: [],
