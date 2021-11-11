@@ -99,7 +99,7 @@ class HomePage extends React.Component {
           <Col sm={{ span: 8, offset: 4 }} style={{ textAlign: 'left' }}>
             <br/>
             <div>
-              You can download my resume in{' '}
+              You can download my <strong>resume</strong> in{' '}
               <a href="/files/BrianShaoenMa_Resume_PM.pdf" target="_blank" download>
                 PDF
               </a>{' '}
