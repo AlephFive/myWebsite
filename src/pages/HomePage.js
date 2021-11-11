@@ -122,6 +122,9 @@ class HomePage extends React.Component {
                 <p>
                   I'm a UI/UX Designer who loves to solve user problems with creative solutions inspired by my diverse interests as well as my cultural and academic backgrounds.
                 </p>
+                <h5>What are my skills?</h5>
+                  In terms of programming languages, I am experienced in JavaScript, MATLAB, Python, C++, C#, C, and Java. I also have significant experience in Unity, React, and Angular.
+                  In terms of design tools, I am proficient in Figma, Basalmiq, Adobe XD, Illustrator, Photoshop, and Premiere Pro.
                 <h5>What are my interests?</h5>
                 <p>
                   My primary interests are Human-Computer Interaction, Graphic Design, UI/UX Design, Software
