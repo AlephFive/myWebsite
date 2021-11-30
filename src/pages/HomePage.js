@@ -130,7 +130,7 @@ class HomePage extends React.Component {
                 <h5>What are my interests?</h5>
                 <p>
                   My primary interests are Human-Computer Interaction, Graphic Design, UI/UX Design, Software
-                  Engineering, Electrical Engineering, Physics, Machine Learning, and Language
+                  Engineering, Electrical Engineering, Physics, Political Science, and Language
                   Learning.
                 </p>
                 <h5>What am I up to now?</h5>
