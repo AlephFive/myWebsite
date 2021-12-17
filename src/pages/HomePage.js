@@ -21,7 +21,7 @@ class HomePage extends React.Component {
         <br />
         <Row>
           <Col sm={{ span: 2, offset: 2 }}>
-            <Image src="me_drawn.png" roundedCircle fluid />
+            <Image src="me_drawn.png" roundedCircle fluid aria-label="A handdrawn portrait image of Brian Ma"/>
           </Col>
           <Col sm={6} style={{ textAlign: 'left' }}>
             <h2 style={{ display: 'inline' }}>Hello There!</h2>
@@ -46,6 +46,7 @@ class HomePage extends React.Component {
               href="https://www.linkedin.com/in/mashaoen/"
               target="_blank"
               onClick={() => this.handleExternalLink('Visited LinkedIn')}
+              aria-label="Button to Brian's LinkedIn"
             >
               <span>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -59,6 +60,7 @@ class HomePage extends React.Component {
               href="https://github.com/AlephFive"
               target="_blank"
               onClick={() => this.handleExternalLink('Visited Github')}
+              aria-label="Button to Brian's GitHub"
             >
               <span>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -72,6 +74,7 @@ class HomePage extends React.Component {
               href="https://www.instagram.com/nothatbrian/"
               target="_blank"
               onClick={() => this.handleExternalLink('Visited Instagram')}
+              aria-label="Button to Brian's Instagram"
             >
               <span>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -85,6 +88,7 @@ class HomePage extends React.Component {
               href="https://www.twitter.com/alephfive"
               target="_blank"
               onClick={() => this.handleExternalLink('Visited Twitter')}
+              aria-label="Button to Brian's Twitter"
             >
               <span>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
