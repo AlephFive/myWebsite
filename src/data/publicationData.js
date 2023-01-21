@@ -1,5 +1,23 @@
 export const publications = [
   {
+    type: 'paper',
+    value: 'spacialAwareness',
+    date: { day: 0, month: 10, year: 2021 },
+    dateDescription: 'October 2022',
+    title:
+      'Uncovering Visually Impaired Gamers’ Preferences for Spatial Awareness Tools Within Video Games',
+    abstract:
+      'Sighted players gain spatial awareness within video games through sight and spatial awareness tools (SATs) such as minimaps. Visually impaired players (VIPs), however, must often rely heavily on SATs to gain spatial awareness, especially in complex environments where using rich ambient sound design alone may be insufficient. Researchers have developed many SATs for facilitating spatial awareness within VIPs. Yet this abundance disguises a gap in our understanding about how exactly these approaches assist VIPs in gaining spatial awareness and what their relative merits and limitations are. To address this, we investigate four leading approaches to facilitating spatial awareness for VIPs within a 3D video game context. Our findings uncover new insights into SATs for VIPs within video games, including that VIPs value position and orientation information the most from an SAT; that none of the approaches we investigated convey position and orientation effectively; and that VIPs highly value the ability to customize SATs.',
+    authors: ['Vishnu Nair', 'Shao-en Ma', 'Ricardo E. Gonzalez Penuela', 'Yicheng He', 'Karen Lin', 'Mason Hayes', 'Hannah Huddleston', 'Matthew Donnelly', 'Brian A. Smith'],
+    book:
+      "ASSETS '22: Proceedings of the 24th International ACM SIGACCESS Conference on Computers and Accessibility",
+    location: 'Athens, Greece',
+    link: 'https://dl.acm.org/doi/10.1145/3517428.3544802',
+    download: '/files/Uncovering_Visually_Impaired_Gamers_Preferences_for_Spatial.pdf',
+    relavance: [],
+    tags: ['cs', 'hci', 'coding'],
+  },
+  {
     type: 'demo',
     value: 'acousticMinimap',
     date: { day: 0, month: 10, year: 2021 },
@@ -12,6 +30,8 @@ export const publications = [
     book:
       "UIST '21: The 34th Annual ACM Symposium on User Interface Software and Technology",
     location: 'Virtual',
+    link: 'https://dl.acm.org/doi/10.1145/3474349.3480177',
+    download: '/files/Towards_a_Generalized_Acoustic_Minimap_for_Visually_Impaired_Gamers.pdf',
     relavance: [],
     tags: ['cs', 'hci', 'coding'],
   },

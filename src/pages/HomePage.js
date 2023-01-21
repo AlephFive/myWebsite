@@ -28,13 +28,13 @@ class HomePage extends React.Component {
             <h2 style={{ color: '#FFFFFF', display: 'inline' }}> General Kenobi!</h2>
 
             <p>
-              I'm <strong>Brian</strong>! I am currently a senior at{' '}
-              <strong>Columbia University</strong> majoring in <strong>Computer Science</strong>.
+              I'm <strong>Brian</strong>! I am currently a UI Engineer at{' '}
+              <strong>Netflix</strong> on the <strong>Globalization Team</strong>.
             </p>
             <p>
-              I attended <strong>Colgate University </strong>from 2017 to 2020. I majored in{' '}
-              <strong>Physics</strong> and minored in <strong>Mathematics</strong> and
-              <strong> Jewish Studies</strong>.
+              I majored in <strong>Computer Science</strong> at <strong>Columbia University</strong>{' '}
+              from 2020 to 2022 and majored in <strong>Physics</strong> and minored in <strong>Mathematics</strong> and
+              <strong> Jewish Studies</strong> at <strong>Colgate University</strong>.
             </p>
           </Col>
         </Row>
@@ -124,12 +124,7 @@ class HomePage extends React.Component {
               <Card.Body>
                 <h5>Who am I?</h5>
                 <p>
-                  I'm a UI/UX Designer who loves to solve user problems with creative solutions inspired by my diverse interests as well as my cultural and academic backgrounds.
-                </p>
-                <h5>What are my skills?</h5>
-                <p>
-                  In terms of programming languages, I am experienced in JavaScript, MATLAB, Python, C++, C#, C, and Java. I also have significant experience in Unity, React, and Angular.
-                  In terms of design tools, I am proficient in Figma, Basalmiq, Adobe XD, Illustrator, Photoshop, and Premiere Pro.
+                  I'm a UI/UX Engineer who loves to solve user problems with creative solutions inspired by my diverse interests as well as my cultural and academic backgrounds.
                 </p>
                 <h5>What are my interests?</h5>
                 <p>
@@ -137,8 +132,6 @@ class HomePage extends React.Component {
                   Engineering, Electrical Engineering, Physics, Political Science, and Language
                   Learning.
                 </p>
-                <h5>What am I up to now?</h5>
-                <p>I am heading to Netflix as a UI Engineer in the Globalisation Team!!</p>
               </Card.Body>
             </Card>
           </Col>
