@@ -1,9 +1,23 @@
 export const education = [
   {
+    value: 'columbiaMS',
+    startDate: { day: 0, month: 3, year: 2019 },
+    endDate: { day: 0, month: 3, year: 2019 },
+    dateDescription: 'Fall 2024 – Present (Part-Time)',
+    institution: 'Columbia University, The Fu Foundation School of Engineering and Applied Science',
+    location: 'New York, NY, USA',
+    degree: 'M.S.',
+    gpa: 'N/A',
+    info: [
+      'Major: Computer Science',
+      'On thesis track for Human Computer Interaction Research',
+    ],
+  },
+  {
     value: 'columbiaUG',
     startDate: { day: 0, month: 3, year: 2019 },
     endDate: { day: 0, month: 3, year: 2019 },
-    dateDescription: 'Fall 2020 – Present',
+    dateDescription: 'Fall 2020 – Spring 2023',
     institution: 'Columbia University, The Fu Foundation School of Engineering and Applied Science',
     location: 'New York, NY, USA',
     degree: 'B.S.',

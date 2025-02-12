@@ -1,6 +1,41 @@
 export const publications = [
   {
     type: 'paper',
+    value: 'mulo',
+    date: { day: 0, month: 10, year: 2021 },
+    dateDescription: 'October 2024',
+    title:
+      'Mul-O: Encouraging Olfactory Innovation in Various Scenarios Through a Task-Oriented Development Platform',
+    abstract:
+      'Olfactory interfaces are pivotal in HCI, yet their development is hindered by limited application scenarios, stifling the discovery of new research opportunities. This challenge primarily stems from existing design tools focusing predominantly on odor display devices and the creation of standalone olfactory experiences, rather than enabling rapid adaptation to various contexts and tasks. Addressing this, we introduce Mul-O, a novel task-oriented development platform crafted to aid semi-professionals in navigating the diverse requirements of potential application scenarios and effectively prototyping ideas. Mul-O facilitates the swift association and integration of olfactory experiences into functional designs, system integrations, and concept validations. Comprising a web UI for task-oriented development, an API server for seamless third-party integration, and wireless olfactory display hardware, Mul-O significantly enhances the ideation and prototyping process in multisensory tasks. This was verified by a 15-day workshop attended by 30 participants. The workshop produced seven innovative projects, underscoring Mul-O’s efficacy in fostering olfactory innovation.',
+    authors: ['Peizhong Gao', 'Fan Liu', 'Di Wen', 'Yuze Gao', 'Linxin Zhang', 'Chikelei Wang', 'Qiwen Zhang', 'Yu Zhang', 'Shao-en Ma', 'Qi Lu', 'Haipeng Mi', 'Yingqing Xu'],
+    book:
+      "UIST '24: Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology",
+    location: 'Pittsburgh, USA',
+    link: 'https://dl.acm.org/doi/10.1145/3654777.3676387',
+    download: '',
+    relavance: [],
+    tags: ['cs', 'hci', 'coding'],
+  },
+  {
+    type: 'demo',
+    value: 'atmospheror',
+    date: { day: 0, month: 10, year: 2021 },
+    dateDescription: 'April 2023',
+    title:
+      'Atmospheror: Towards an Olfactory Interactive System for Enhancing Social Presence and Interaction in Synchronous Online Classes',
+    abstract:
+      'Synchronous online classes have become increasingly common in recent years. However, students and instructors often face challenges when giving and receiving reactions and feedback. Existing solutions include audio and visual cues, which often act as distractions. A potential alternative is olfactory cues. This paper proposes Atmospheror, an interactive system that supports interaction and feedback between students and instructors through an ambient olfactory display. We performed a pilot study with two instructors and 13 students to evaluate the effectiveness of Atmospheror and its design and implementation, applying both quantitative and qualitative methods. Preliminary results indicate that Atmospheror can promote students’ concentration and increase interactivity in online classes. User interviews provided suggestions for future enhancements of the selection and treatment of odor, hardware implementation, and interface system mechanisms.',
+    authors: ['Qi Lu', 'Yuewei Zhang', 'Yuxin Zhang', 'Shao-en Ma', 'Yunfan Zhang', 'Yuou Qin', 'Peizhong Gao', 'Qiwei Zhang', 'Yingqing Xu'],
+    book:
+      "CHI EA '23: Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems",
+    location: 'Hamburg, Germany',
+    link: 'https://dl.acm.org/doi/10.1145/3544549.3585832',
+    relavance: [],
+    tags: ['cs', 'hci', 'coding'],
+  },
+  {
+    type: 'paper',
     value: 'spacialAwareness',
     date: { day: 0, month: 10, year: 2021 },
     dateDescription: 'October 2022',

@@ -1,5 +1,19 @@
 export const experiences = [
   {
+    value: 'netflix',
+    startDate: { day: 1, month: 9, year: 2021 },
+    endDate: { day: 1, month: 12, year: 2021 },
+    dateDescription: 'Fall 2022 - Present',
+    label: 'Netflix',
+    jobTitle: 'UI Engineer',
+    location: 'New York, NY, USA',
+    description: [
+      'On a team supporting translators so stories around the would can be told without Cultural, Linguistic, and Accessibility barriers!'
+    ],
+    relevance: ['research', 'software', 'design', 'data', 'leadership'],
+    tags: [],
+  },
+  {
     value: 'uidesign',
     startDate: { day: 1, month: 9, year: 2021 },
     endDate: { day: 1, month: 12, year: 2021 },
@@ -178,6 +192,7 @@ export const otherExperiences = [
     relevance: ['leadership', 'communication', 'design'],
     tags: [],
   },
+  /*
   {
     value: 'livestream',
     startDate: { day: 1, month: 6, year: 2019 },
@@ -222,7 +237,7 @@ export const otherExperiences = [
     ],
     relevance: ['leadership', 'communication', 'design'],
     tags: [],
-  },
+  },*/
   
 ];
 
